@@ -1,0 +1,144 @@
+sources:
+  # ── 標準化団体 ──────────────────────────────────────
+  - name: "3GPP News"
+    url: "https://www.3gpp.org/news-events/news"
+    type: scrape
+    category: standardization
+    priority: high
+    enabled: true
+    scrape_config:
+      article_selector: "article, .news-item, .views-row"
+      title_selector: "h2, h3, .field-title"
+      link_selector: "a"
+
+  - name: "O-RAN Alliance Blog"
+    url: "https://www.o-ran.org/blog"
+    type: scrape
+    category: standardization
+    priority: high
+    enabled: true
+    scrape_config:
+      article_selector: "a"
+      title_selector: "h3, h4"
+      link_selector: "a"
+
+  - name: "AI RAN Alliance News"
+    url: "https://ai-ran.org/category/news/"
+    type: scrape
+    category: standardization
+    priority: high
+    enabled: true
+    scrape_config:
+      article_selector: "article, .post"
+      title_selector: "h2, h3"
+      link_selector: "a"
+
+  - name: "ITU News"
+    url: "https://www.itu.int/en/mediacentre/Pages/default.aspx"
+    type: scrape
+    category: standardization
+    priority: medium
+    enabled: true
+    scrape_config:
+      article_selector: ".news-item, article, li"
+      title_selector: "h2, h3, a"
+      link_selector: "a"
+
+  - name: "ETSI News"
+    url: "https://www.etsi.org/news-events/news"
+    type: scrape
+    category: standardization
+    priority: medium
+    enabled: true
+    scrape_config:
+      article_selector: "article, .news-item, li"
+      title_selector: "h2, h3, a"
+      link_selector: "a"
+
+  - name: "IEEE SA News"
+    url: "https://standards.ieee.org/feed/"
+    type: rss
+    category: standardization
+    priority: medium
+    enabled: true
+
+  # ── 論文・技術文書 ────────────────────────────────────
+  # IEEE Xplore の検索RSS は遮断されているため、主要ジャーナルのRSSを使用
+  - name: "IEEE Wireless Communications"
+    url: "https://ieeexplore.ieee.org/rss/TOC7742901.XML"
+    type: rss
+    category: paper
+    priority: high
+    enabled: true
+
+  - name: "IEEE Communications Magazine"
+    url: "https://ieeexplore.ieee.org/rss/TOC35.XML"
+    type: rss
+    category: paper
+    priority: high
+    enabled: true
+
+  - name: "IEEE Transactions on Wireless Communications"
+    url: "https://ieeexplore.ieee.org/rss/TOC4656680.XML"
+    type: rss
+    category: paper
+    priority: high
+    enabled: true
+
+  - name: "IEEE Network"
+    url: "https://ieeexplore.ieee.org/rss/TOC65.XML"
+    type: rss
+    category: paper
+    priority: medium
+    enabled: true
+
+  # ── 業界メディア ───────────────────────────────────────
+  - name: "RCR Wireless"
+    url: "https://www.rcrwireless.com/feed"
+    type: rss
+    category: media
+    priority: high
+    enabled: true
+
+  - name: "Light Reading"
+    url: "https://www.lightreading.com/rss.xml"
+    type: rss
+    category: media
+    priority: high
+    enabled: true
+
+  - name: "Fierce Wireless"
+    url: "https://www.fiercewireless.com/rss/xml"
+    type: rss
+    category: media
+    priority: high
+    enabled: true
+
+  - name: "SDxCentral"
+    url: "https://www.sdxcentral.com/feed/"
+    type: rss
+    category: media
+    priority: medium
+    enabled: true
+
+  - name: "Telecom TV"
+    url: "https://www.telecomtv.com/feed/"
+    type: rss
+    category: media
+    priority: medium
+    enabled: true
+
+  # ── 一般メディア ───────────────────────────────────────
+  - name: "Reuters Technology"
+    url: "https://feeds.reuters.com/reuters/technologyNews"
+    type: rss
+    category: media
+    priority: low
+    enabled: false  # 必要に応じてtrueに
+
+  - name: "BBC Technology"
+    url: "http://feeds.bbci.co.uk/news/technology/rss.xml"
+    type: rss
+    category: media
+    priority: low
+    enabled: false

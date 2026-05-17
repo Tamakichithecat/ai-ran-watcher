@@ -1,0 +1,27 @@
+# 収集対象キーワード — いずれか1つにマッチした記事を収集
+filter_keywords:
+  - "AI RAN"
+  - "AI-RAN"
+  - "AI Native RAN"
+  - "AI native network"
+  - "AI native 6G"
+  - "RAN intelligence"
+  - "intelligent RAN"
+  - "O-RAN AI"
+  - "O-RAN ML"
+  - "3GPP AI"
+  - "network AI"
+  - "AI RAN Alliance"
+  - "xApp"
+  - "rApp"
+  - "Non-RT RIC"
+  - "Near-RT RIC"
+
+# アラートキーワード — Slack即時通知トリガー
+alert_keywords:
+  - "AI RAN Alliance"
+  - "3GPP Release 19"
+  - "3GPP Rel-19"
+  - "O-RAN AI/ML"
+  - "AI native 6G specification"
+  - "RIC specification"
