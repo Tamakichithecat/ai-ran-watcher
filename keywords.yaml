@@ -1,5 +1,6 @@
 # 収集対象キーワード — いずれか1つにマッチした記事を収集
 filter_keywords:
+  # 英語キーワード
   - "AI RAN"
   - "AI-RAN"
   - "AI Native RAN"
@@ -16,6 +17,17 @@ filter_keywords:
   - "rApp"
   - "Non-RT RIC"
   - "Near-RT RIC"
+  # 日本語キーワード
+  - "AI RAN"
+  - "AIネイティブ"
+  - "AI ネイティブ"
+  - "オープンRAN"
+  - "Open RAN"
+  - "仮想化RAN"
+  - "vRAN"
+  - "O-RAN"
+  - "ニアリアルタイムRIC"
+  - "ノンリアルタイムRIC"
 
 # アラートキーワード — Slack即時通知トリガー
 alert_keywords:

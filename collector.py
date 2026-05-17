@@ -159,7 +159,7 @@ def matches_any(text: str, keywords: list[str]) -> bool:
 
 def score(article: dict) -> int:
     s = {"high": 10, "medium": 5, "low": 1}.get(article["priority"], 0)
-    s += {"standardization": 5, "paper": 3, "media": 0}.get(article["category"], 0)
+    s += {"standardization": 5, "paper": 3, "corporate": 4, "media_jp": 2, "media": 0}.get(article["category"], 0)
     return s
 
 
@@ -168,7 +168,9 @@ def score(article: dict) -> int:
 SECTION_MAP = [
     ("standardization", "## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）"),
     ("paper",           "## 📄 論文・技術文書（IEEE Xplore等）"),
-    ("media",           "## 📰 業界・一般メディア"),
+    ("corporate",       "## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）"),
+    ("media_jp",        "## 🇯🇵 日本語メディア"),
+    ("media",           "## 📰 業界・一般メディア（英語）"),
 ]
 
 

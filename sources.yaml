@@ -128,6 +128,61 @@ sources:
     priority: medium
     enabled: true
 
+  # ── 企業プレスリリース ────────────────────────────────────
+  - name: "NVIDIA — AI RAN (Google News)"
+    url: "https://news.google.com/rss/search?q=NVIDIA+AI+RAN&hl=en-US&gl=US&ceid=US:en"
+    type: rss
+    category: corporate
+    priority: high
+    enabled: true
+
+  - name: "T-Mobile — AI RAN (Google News)"
+    url: "https://news.google.com/rss/search?q=T-Mobile+AI+RAN&hl=en-US&gl=US&ceid=US:en"
+    type: rss
+    category: corporate
+    priority: high
+    enabled: true
+
+  - name: "SoftBank — AI RAN (Google News)"
+    url: "https://news.google.com/rss/search?q=SoftBank+AI+RAN&hl=ja&gl=JP&ceid=JP:ja"
+    type: rss
+    category: corporate
+    priority: high
+    enabled: true
+
+  - name: "SoftBank プレスリリース"
+    url: "https://www.softbank.jp/corp/news/press/"
+    type: scrape
+    category: corporate
+    priority: high
+    enabled: true
+    scrape_config:
+      article_selector: "li, article, .news-item, tr"
+      title_selector: "a, h3, h4"
+      link_selector: "a"
+
+  # ── 日本語メディア ─────────────────────────────────────
+  - name: "日経クロステック"
+    url: "https://xtech.nikkei.com/rss/xtech-it.rdf"
+    type: rss
+    category: media_jp
+    priority: high
+    enabled: true
+
+  - name: "ITmedia Mobile"
+    url: "https://rss.itmedia.co.jp/rss/2.0/mobile.xml"
+    type: rss
+    category: media_jp
+    priority: medium
+    enabled: true
+
+  - name: "ケータイ Watch"
+    url: "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf"
+    type: rss
+    category: media_jp
+    priority: medium
+    enabled: true
+
   # ── 一般メディア ───────────────────────────────────────
   - name: "Reuters Technology"
     url: "https://feeds.reuters.com/reuters/technologyNews"
