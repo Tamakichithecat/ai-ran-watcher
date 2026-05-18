@@ -205,18 +205,69 @@ def generate_digest(articles: list[dict]) -> str:
 
 # ── Slack ─────────────────────────────────────────────────────────────────────
 
+def _post_slack(payload: dict, webhook_url: str, label: str):
+    try:
+        requests.post(webhook_url, json=payload, timeout=10)
+        print(f"  Slack 送信: {label}")
+    except Exception as e:
+        print(f"  Slack 送信エラー ({label}): {e}")
+
+
+def send_daily_summary(new_articles: list[dict], alert_count: int, webhook_url: str):
+    now = datetime.now(JST).strftime("%Y-%m-%d")
+
+    # カテゴリ別件数
+    cat_counts: dict[str, int] = {}
+    for a in new_articles:
+        cat_counts[a["category"]] = cat_counts.get(a["category"], 0) + 1
+
+    cat_line = "　".join([
+        f"🔴標準化:{cat_counts.get('standardization', 0)}",
+        f"📄論文:{cat_counts.get('paper', 0)}",
+        f"🏢企業:{cat_counts.get('corporate', 0)}",
+        f"🇯🇵国内:{cat_counts.get('media_jp', 0)}",
+        f"📰海外:{cat_counts.get('media', 0)}",
+    ])
+
+    # スコア上位5件
+    top = sorted(new_articles, key=score, reverse=True)[:5]
+    if top:
+        top_lines = "\n".join(
+            f"{'🔺' if a['priority'] == 'high' else '・'} "
+            f"<{a['url']}|{a['title'][:70]}> _{a['source_name']}_"
+            for a in top
+        )
+    else:
+        top_lines = "　本日の新規記事はありません"
+
+    alert_text = f"🚨 *アラート {alert_count}件あり*" if alert_count else "アラート: なし"
+
+    # Claude Project URL（GitHub Secretに CLAUDE_PROJECT_URL を登録すると表示）
+    claude_url = os.environ.get("CLAUDE_PROJECT_URL", "")
+    project_link = f"\n📖 <{claude_url}|Claude Projectで全件確認>" if claude_url else ""
+
+    text = (
+        f"📡 *AI RAN Daily — {now}*\n"
+        f"新規記事: *{len(new_articles)}件*\n"
+        f"{cat_line}\n"
+        f"\n*トップ{len(top)}件*\n"
+        f"{top_lines}\n"
+        f"\n{alert_text}{project_link}"
+    )
+    _post_slack({"text": text}, webhook_url, "日次サマリー")
+
+
 def send_slack_alert(articles: list[dict], webhook_url: str):
     now = datetime.now(JST).strftime("%Y-%m-%d")
     items = "\n".join(
         f"• <{a['url']}|{a['title']}> ({a['source_name']})"
         for a in articles[:5]
     )
-    payload = {"text": f"🚨 *AI RAN アラート* — {now}\n{items}"}
-    try:
-        requests.post(webhook_url, json=payload, timeout=10)
-        print(f"  Slack アラート送信: {len(articles)}件")
-    except Exception as e:
-        print(f"  Slack 送信エラー: {e}")
+    _post_slack(
+        {"text": f"🚨 *AI RAN アラート* — {now}\n{items}"},
+        webhook_url,
+        f"アラート {len(articles)}件",
+    )
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -257,13 +308,16 @@ def main():
 
     save_seen_urls(seen)
 
-    # slack alert
+    # Slack 通知
     alert_articles = [a for a in new_articles if matches_any(f"{a['title']} {a['summary']}", alert_kws)]
     webhook_url = os.environ.get("SLACK_WEBHOOK_URL", "")
-    if alert_articles and webhook_url:
-        send_slack_alert(alert_articles, webhook_url)
-    elif alert_articles:
-        print(f"  アラート対象: {len(alert_articles)}件 (SLACK_WEBHOOK_URL 未設定のためスキップ)")
+
+    if webhook_url:
+        send_daily_summary(new_articles, len(alert_articles), webhook_url)
+        if alert_articles:
+            send_slack_alert(alert_articles, webhook_url)  # アラートは別メッセージで追加送信
+    else:
+        print("  Slack: SLACK_WEBHOOK_URL 未設定のためスキップ")
 
 
 if __name__ == "__main__":
