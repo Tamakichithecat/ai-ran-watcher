@@ -1,13 +1,13 @@
-# 📡 AI RAN Digest — 2026-05-19
+# 📡 AI RAN Digest — 2026-05-20
 
-収集日時: 2026-05-19 07:47 JST | 新規記事: 2件
+収集日時: 2026-05-20 07:56 JST | 新規記事: 2件
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Feature: T-Mobile US bets big on AI-RAN - Mobile World Live**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNk5QZk1UN0phTG5sTmI4LUFFcUxqY0xwT3F4QlFGeVV6dFB1TWFvZ0JSbm9ja2dEUUI2RUlfRWZtYU41UnR0MzFlUEVMZG5sOTZOcXNHUlk1NUp6Y1VNRHF4dW1jQ3NKblk4bTRNNFRtN2tQLWtDUTVYcDZhV2FuSlA3M2Q4MUwybnBR?oc=5
-   Feature: T-Mobile US bets big on AI-RAN&nbsp;&nbsp;Mobile World Live
+🔺 **Keysight and Samsung Demonstrate End-to-End AI-RAN Validation Workflow with NVIDIA - Business Wire**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeUIzaHpxanlmWS1pdXFnZm42aGs4TTlTLUt3MmhZcWZFZGNnYy1OYmdwb3Q5WXN0NlNXQXRJaEg3b3lGcGlSS2ZoZXA1T3QyN3BQeHRONXd5aUlieWVKRmVQNGI5bXViUlRWamx6SDM2Sk00VGhuR3pwWmR5bnM0UGhwY1BiN0VCUUx4c0VWYV9NWEtMUnd6ODJaRHBSVGxrNkZYazljY3h0V0pmWV8tRG1jcGdXRjVFV09oZnJzVmNxRGE4R1h3TXdHSFZuSE5NT0NaSGt3?oc=5
+   Keysight and Samsung Demonstrate End-to-End AI-RAN Validation Workflow with NVIDIA&nbsp;&nbsp;Business Wire
 
-🔺 **What’s up with… AI-RAN Alliance, AI RAN investments, T-Mobile US - telecomtv.com**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWUNfV1liX1FWVzBGRmpmZmxTY2JIdUxYRFp0dWctZTVTeGlPWkdGZFdOY01WSHFUMm1VSHVaMHZfS3pLZXZPNFdJUWUteGN0cXUxc1FQU2NMVm9TU0NaWjZoQ1RSYUhWSHFJQjZPS0VKNVlzdmp3TWZtSU1obG1LWWdOc2toX1AxX2VUUVNCaXgzRGpaTm9UcTc5QjVwS202bnZmM2VjYjloeDFMNU9nNUxGbndBWm1JMU1zd2FfdTEtQdIBxwFBVV95cUxOWWdWZVBCSVF2MDlqcWpQalB6OTlRZkNVOV84MVpBRTBGUnZlT2FkeG8yeWF3MnFUeDRWNGNnSS1lcXZMcHR6QVRTYW1pb1M0YVh1bTdzX0xPZVUyeUlXVWgtRUlzc3BiTEVHUzdhWnRnbzd0VkZlTHNCeU56TTRfRE1ITkVWdGZSdTFUSzBHaHc0Z05YOVpxZU1fc0E5VU5LM2FqVjVXeFcxeGU0VVFOcXM5TzBmSjEzZnlsZWxZaWN3dHc1bVpv?oc=5
-   What’s up with… AI-RAN Alliance, AI RAN investments, T-Mobile US&nbsp;&nbsp;telecomtv.com
+🔺 **ソフトバンクとSamsung、「AI-RAN」で協業 6Gに向け共同研究 - ITmedia**
+   SoftBank — AI RAN (Google News) | https://news.google.com/rss/articles/CBMie0FVX3lxTE1ia1I3SlJ1VFVQNWZ1MUhKTGFqcGN5czM3WVFUWjdENlgtcTJEZ2VWNl9IU3M2WmU0cEYxT1JjbXFZMlBWRWJIZFl6ekFUU09icXNMd0Rha0tQZTg3OTJGOTIyWUhGU0dEQlFHa1JWU0hhamNOeDRZcEQ4cw?oc=5
+   ソフトバンクとSamsung、「AI-RAN」で協業 6Gに向け共同研究&nbsp;&nbsp;ITmedia
