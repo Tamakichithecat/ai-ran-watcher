@@ -1,9 +1,15 @@
-# 📡 AI RAN Digest — 2026-05-26
+# 📡 AI RAN Digest — 2026-05-27
 
-収集日時: 2026-05-26 07:50 JST | 新規記事: 1件
+収集日時: 2026-05-27 08:00 JST | 新規記事: 2件
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **SynaXG and Highway 9 Networks Showcase Enterprise-Ready AI-RAN Solution with NVIDIA AI Aerial - Business Wire**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcDl0c2dxODNRS0M3cWo5QWFQX3QzRW41QW1MaHJrQkhzaUhJYmppSkFqOTllS3B5aklmbWJFSzZtN19VaDJMazBuR2s2SGtyU3VnOG4wZDhnWVhtdVlYQzdOMzBfellMUVltZ3RWaXlyanNGdVBjTERNVEd2MGY3Z1gwZkRocTlTaXczYnA0ZDdKUkVDQV9qbjV2TTRhZ1ZHZkZVWi0zQ3FMd3VGRFJac3pyM19JTFRBZXItU25JV2lPTGRDaURfdVFuNjlqdWVuSzhaMmlwcEJDWDk2Mm1wS0FFb24?oc=5
-   SynaXG and Highway 9 Networks Showcase Enterprise-Ready AI-RAN Solution with NVIDIA AI Aerial&nbsp;&nbsp;Business Wire
+🔺 **Opinion: Do telecom RANs really need GPUs for AI-RAN? - fiercewireless.com**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMikAFBVV95cUxPVWswWWRHWnk4RlJnQXpsSDNteWdhZ2FqNVRreUNLRExPaXRIMVFHUUJJTlQ1V2ttd1dLZnJMVEZlWnRvb2w2UmN3c193dUw5eFJOTVlISDB0ZzFkZ29qaWhvY1I1VFh4VjFFZ09lXzFXSllDRU9oWGFLT2ZWeTRyTG4zXzhvTkhSZVRCUFNFdXE?oc=5
+   Opinion: Do telecom RANs really need GPUs for AI-RAN?&nbsp;&nbsp;fiercewireless.com
+
+## 📰 業界・一般メディア（英語）
+
+🔺 **Opinion: Do telecom RANs really need GPUs for AI-RAN?**
+   Fierce Wireless | https://www.fierce-network.com/wireless/opinion-do-telecom-rans-really-need-gpus-ai-ran
+   Sorry Jensen, there’s no need for GPUs in the telco RAN.
