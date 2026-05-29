@@ -206,9 +206,17 @@ def generate_digest(articles: list[dict]) -> str:
 # ── Slack ─────────────────────────────────────────────────────────────────────
 
 def _post_slack(payload: dict, webhook_url: str, label: str):
+    # URL診断（シークレットを露出せずにスキーム・長さを確認）
+    url_len = len(webhook_url)
+    url_scheme = webhook_url[:8] if url_len >= 8 else webhook_url
+    print(f"  Slack URL診断: len={url_len}, scheme_prefix={repr(url_scheme)}")
+
+    if not webhook_url.startswith(("http://", "https://")):
+        print(f"  Slack エラー ({label}): URLが http(s):// で始まっていません")
+        return
     try:
-        requests.post(webhook_url, json=payload, timeout=10)
-        print(f"  Slack 送信: {label}")
+        resp = requests.post(webhook_url, json=payload, timeout=10)
+        print(f"  Slack 送信: {label} (status={resp.status_code})")
     except Exception as e:
         print(f"  Slack 送信エラー ({label}): {e}")
 
