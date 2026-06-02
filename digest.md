@@ -1,13 +1,9 @@
-# 📡 AI RAN Digest — 2026-06-02
+# 📡 AI RAN Digest — 2026-06-03
 
-収集日時: 2026-06-02 08:21 JST | 新規記事: 2件
+収集日時: 2026-06-03 08:26 JST | 新規記事: 1件
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **SynaSpark Rover brings AI-RAN and edge AI compute into a portable 5G platform - Tech Edition**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ2NsU0NZZzNUclhxX3F3cE1Bd24taDJsbFUyc0lxb3g1NHJxbFc3UnBvTTVKV1ZhQzhobmw2QmJmS1JKTW9yU24tT183c1B4VC03YmFlQ2loQ2JscDVlMDNBdjBVd0ZrVkJLeEVXVDBsSjlSVVZPRUM2STZIejlReWJ1SEZxTVptb2VwNG1pREltYXp6T2pqLXhsdVBOOTkzV0Vn?oc=5
-   SynaSpark Rover brings AI-RAN and edge AI compute into a portable 5G platform&nbsp;&nbsp;Tech Edition
-
-🔺 **T-Mobile 5G Advanced network achieves world first with Ericsson AI RAN innovation - PR Newswire**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOWMxcmpYd2RNUE80MURzTW9MNzgxaGxzYzlGZnZKMU9raURzWUFpazV1Vi1SZUJid1JYc2tKWFEyMXJxeVJ1bzh6TEQ3cEQ3eEl0YlVLRGJyWjU2U08yQVZTa1JXb1M4dkZqVnBZNzZhNU9ZcWgwQ19FVXpGRldVNm41UlgyektMcHRObXhZZFp2WHN0UXNzZkx3ek9USkZxNXRkNElTRVMwVS1Wd1JkT205NUFiakIxT3Y0NFpMU2NEQzljMHZubDZHVHNFUHlqU01V?oc=5
-   T-Mobile 5G Advanced network achieves world first with Ericsson AI RAN innovation&nbsp;&nbsp;PR Newswire
+🔺 **Nokia and NVIDIA collaboration accelerates AI-RAN deployment across global operators - telecomtv.com**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZTlwc21zeHFNTWZSenNZTE9mSE1KUWkwSzBJZVR4dE5XcGY1MHNLU3kzcGl1N0NKT3VncF9VTnF6Nzhfbk9nS25qTjRrYmJKUXRiRThDMHBfT0JScWNOSTU5TVhtSmRhaE5ORUV5X3pzSlVwSUphVVRIOUpHSGZVZlBYekt6alltc2xoMHFpMWxNTDNnS2lYWXQwS3lUdVgtbzRkQ3hDQUhCODY4d3ZCODNpN3V6ZlRWMU1xdWZ2Wm1DQW1tWHhjTi05Zm1aNnBjZWRnTjRNdFpoRWxlUTRlSjllNTY?oc=5
+   Nokia and NVIDIA collaboration accelerates AI-RAN deployment across global operators&nbsp;&nbsp;telecomtv.com
