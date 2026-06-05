@@ -1,23 +1,27 @@
-# 📡 AI RAN Digest — 2026-06-05
+# 📡 AI RAN Digest — 2026-06-06
 
-収集日時: 2026-06-05 08:00 JST | 新規記事: 4件
+収集日時: 2026-06-06 07:58 JST | 新規記事: 5件
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **LITEON Partners With SUTD and Its Spinoff NeuroRAN to Drive AI-RAN Innovation, Advancing Real-Time Edge AI Commercialization over 5G - The Malaysian Reserve**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMihgJBVV95cUxPaEs3djkxakRFSlhPWEFzT21FZzJidU9GUE5nTHY4ZjFteVBESkl1SFB0eVlzUU1LZEtSWi16NG83ZHlJWXcyeG9wcWZpbkpZQU84dDIzM21SMExYTFVaTGZyNlR5VzhOYVVpczFrellVVC1TOXZ5ellpaHV0RnpacXlEY2lyWHdQckdZWnBIU1ltaktxSzJNOEhMbmFBcFpuRm5TSnJqZU1CbjlxaWMtVzRZQ3NENV9YS1lvR3gtX28yRDFrVWQ4bzh0blZNZzA2a3hNMFNaVmhOV2dfRE00SWZxallrcUdNZktSQXNuMnZ6M1k5U2hod0RZd3dIVGVOOFlCeDRB?oc=5
-   LITEON Partners With SUTD and Its Spinoff NeuroRAN to Drive AI-RAN Innovation, Advancing Real-Time Edge AI Commercialization over 5G&nbsp;&nbsp;The Malaysian Re
+🔺 **Samsung charts its own path to AI RAN - Fierce Network**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMif0FVX3lxTE81eWRHZjI3T2hoQVNLRjN1YW1hbEc0R0M1M183M2NoYmdza1hBQjVxVEF4alNKd0Q0NElPSGp0WW5WMVpkbWRoZ3dPT08zQzlSQ3dtdDRiWURsZW9FWVducmhWRk52N1p4VU14Z0N1WHhvY3E1NjloTEt5d2hWU2s?oc=5
+   Samsung charts its own path to AI RAN&nbsp;&nbsp;Fierce Network
 
-🔺 **® Azerconnect Group joins the AI-RAN Alliance - Azərtac**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMihwFBVV95cUxOUDdkTzNQdnR0VEZKRllINjEzMzNNd29tZlozUXd1dUd1UVRIYVNhZHIwX1JpelNuTDRuQnlKNUIwUFRHbzhidlVkOF9BN05JUGRwRzQ5SjBmMDVLczFQTjdNSVNrWmUzMlB0TW9jTE1CcDFMTEtaTVZNemsyNEM3V3YyOXo1Mm8?oc=5
-   ® Azerconnect Group joins the AI-RAN Alliance&nbsp;&nbsp;Azərtac
+🔺 **LITEON Advances AI-RAN Technology with Real-Time Edge AI & Dynamic Model Partitioning - The Fast Mode**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN1ZkaUZ1bWVzUnFhYVVyc0t6bm1PZVczZ0E5VzhMbXZMV3lOSVZGVkc0dXN1WGoxZG1tcWZyckhhcWVyb0pxUFpTY3JRbFhiNjdhVG54NlV0SURUcE1FQ0RjWEQyU2Y5eDBEX3l4UWg2ai1HUU1pc1dka0ZHbktGS0ZGVXBXNlVMNFRGVFoyMlZrbWEyMlFxRk4xNG5VQkdZTUF1WEJjZEdMRTlPa2ktcnNxdHM5YV9JZU5qRVlzQS1PMEJjZHYzNWtGb2VoclRfQzhEZQ?oc=5
+   LITEON Advances AI-RAN Technology with Real-Time Edge AI & Dynamic Model Partitioning&nbsp;&nbsp;The Fast Mode
 
-🔺 **Nokia, Orange partner to accelerate AI-RAN - Mobile World Live**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMihwFBVV95cUxPUUdNOHhVTko2ZkgyMUR5amM5UkZ4eXVvOExQSXZnX2NYNzJzR1kxaUxWTG04ZFlfQkxmSlpoY2lyWnhsalBhVTJNbE1vY2xrZWdfcDFDQk9FS1dlSGpqWjZYWlZ0dENIMnpkWUE4dDVjczlWc2wzN2VVZU5nRFVBbm5KcVZCd3c?oc=5
-   Nokia, Orange partner to accelerate AI-RAN&nbsp;&nbsp;Mobile World Live
+🔺 **Nvidia, T-Mobile share AI-RAN vision - telecomtv.com**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMihgFBVV95cUxNdV96OWhwSG82dWpZTEhFWXlUcmlCT3dEaGVTU3ZlM1FBUVV0a3Z2V1ZtTG5zNFVvTExzRWlzRDZiM3BVdXAtbjJNR1oyLTFTZVRHZnhoeldlU0hGVkNFbHEwZ1lFTHFzVDVzN3o4WjBHWDdSX3F5b09Fa3hRdGlXWDI0bF9oQQ?oc=5
+   Nvidia, T-Mobile share AI-RAN vision&nbsp;&nbsp;telecomtv.com
+
+🔺 **AI-RAN Alliance: Building the intelligent networks of tomorrow - capacityglobal.com**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMikAFBVV95cUxOeXhkVEtRSThTYTBXYURCTndoaHRoNGNkaWwyS1hxVUZucVUxOWJlYm5XaFppY1oxNnE3bG9hcEpfU3V1Tm1UeFV2a3Q1TDE1MXRfb1ZtY1kzTzdhaGhEQzE3UmN1YkVmeHlCMjNvRFFHWTBYSmw5ZEhvSDNzUDVrTE5YaE5seHdIN0FZOTN6akM?oc=5
+   AI-RAN Alliance: Building the intelligent networks of tomorrow&nbsp;&nbsp;capacityglobal.com
 
 ## 📰 業界・一般メディア（英語）
 
-🔺 **AT&amp;T expands open RAN and cloud is on the horizon**
-   Light Reading | https://www.lightreading.com/5g/at-t-expands-open-ran-and-cloud-is-on-the-horizon
-   AT&amp;T is expanding open RAN rollout and poised to scale cloud RAN in latest progress update on its five-year wireless network upgrade project with Ericsson.
+🔺 **Samsung charts its own path to AI RAN**
+   Fierce Wireless | https://www.fierce-network.com/wireless/samsung-charts-its-own-path-ai-ran
+   Ericsson and Nokia are taking different strategies in how and where they deploy AI in the mobile network. Then there’s Samsung’s way.
