@@ -255,7 +255,7 @@ def send_daily_summary(new_articles: list[dict], alert_count: int, webhook_url: 
     project_link = f"\n📖 <{claude_url}|Claude Projectで全件確認>" if claude_url else ""
 
     text = (
-        f"📡 *AI RAN Daily — {now}*\n"
+        f"<!here> 📡 *AI RAN Daily — {now}*\n"
         f"新規記事: *{len(new_articles)}件*\n"
         f"{cat_line}\n"
         f"\n*トップ{len(top)}件*\n"
