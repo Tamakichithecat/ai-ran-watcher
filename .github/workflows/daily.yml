@@ -26,17 +26,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run collector
-        env:
-          SLACK_BOT_TOKEN:      ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL_ID:     ${{ secrets.SLACK_CHANNEL_ID }}
-          CLAUDE_PROJECT_URL:   ${{ secrets.CLAUDE_PROJECT_URL }}
-          GITHUB_MODELS_TOKEN:  ${{ secrets.GITHUB_MODELS_TOKEN }}
         run: python collector.py
 
-      - name: Commit digest
+      - name: Commit raw digest
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add digest.md seen_urls.json
-          git diff --cached --quiet || git commit -m "digest: $(date -u +%Y-%m-%d)"
+          git add digest_raw.md seen_urls.json
+          git diff --cached --quiet || git commit -m "collect: $(date -u +%Y-%m-%d)"
           git push
