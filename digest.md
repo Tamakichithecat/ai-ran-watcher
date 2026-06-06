@@ -1,7 +1,7 @@
 # 📡 AI RAN Digest — 2026-06-06
 
-収集日時: 2026-06-06 21:29 JST | 新規記事: 10件（累計21件）
-🔴標準化:4　📄論文:3　🏢企業:7　🇯🇵国内:4　📰海外:3
+収集日時: 2026-06-06 21:29 JST | 新規記事: 11件（累計22件）
+🔴標準化:4　📄論文:3　🏢企業:8　🇯🇵国内:4　📰海外:3
 
 ---
 
@@ -55,6 +55,13 @@
 ---
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank / Nokia 等）
+
+🔺 **Northeastern University Unveils GENESIS: First Agentic AI System to Take 5G/6G RAN Features from Specification to Over-the-Air in Hours**
+   企業名🏢：Northeastern University INSI
+   PR Newswire | https://www.prnewswire.com/news-releases/northeastern-university-unveils-genesis-first-agentic-ai-system-to-take-5g6g-ran-features-from-specification-to-over-the-air-in-hours-302791798.html
+   • ノースイースタン大学INSI（Intelligent Networked Systems研究所）が、3GPP仕様書の記述を数時間以内に実機5G OTAコードへ自動変換するエージェント型AIシステム「GENESIS」を発表（2026年6月4日）。
+   • 従来は専門エンジニアが数ヶ月を要していた仕様→検証済みOTA実装プロセスを完全自動化し、Open RAN研究開発サイクルを抜本的に短縮。
+   • 3GPP仕様・研究アイデアを入力としてプロダクション5Gハードウェア上で動作するコードを直接生成する能力は、AI-RANの標準化と商用化加速に寄与すると期待される。
 
 🔺 **NVIDIA and Global Telecom Leaders Commit to Build 6G on Open and Secure AI-Native Platforms**
    NVIDIA Newsroom | https://nvidianews.nvidia.com/news/nvidia-and-global-telecom-leaders-commit-to-build-6g-on-open-and-secure-ai-native-platforms
