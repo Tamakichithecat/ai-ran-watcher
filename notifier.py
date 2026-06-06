@@ -39,16 +39,17 @@ def parse_digest(content: str) -> dict:
             url = source = ""
             bullets: list[str] = []
 
-            if i + 1 < len(lines):
-                parts = lines[i + 1].strip().split(" | ")
-                source = parts[0].strip() if len(parts) >= 2 else ""
-                url    = parts[-1].strip()
-
-            j = i + 2
+            # タイトル行の後に著者名・企業名・メディア名などのメタ行が
+            # 入る場合があるため、" | " を含む行をソース/URL行として探す
+            j = i + 1
             while j < len(lines) and lines[j].strip():
                 bl = lines[j].strip()
                 if bl.startswith("•"):
                     bullets.append(bl)
+                elif " | " in bl and not url:
+                    parts = bl.split(" | ")
+                    source = parts[0].strip()
+                    url    = parts[-1].strip()
                 j += 1
 
             articles.append({"title": title, "url": url,
