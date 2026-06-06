@@ -418,7 +418,7 @@ def main():
     alert_articles = [a for a in new_articles if matches_any(f"{a['title']} {a['summary']}", alert_kws)]
     bot_token  = os.environ.get("SLACK_BOT_TOKEN", "")
     channel_id = os.environ.get("SLACK_CHANNEL_ID", "")
-    github_token = os.environ.get("GITHUB_TOKEN", "")
+    github_token = os.environ.get("GITHUB_MODELS_TOKEN", "")
 
     if bot_token and channel_id:
         notify_slack(new_articles, alert_articles, bot_token, channel_id, github_token)

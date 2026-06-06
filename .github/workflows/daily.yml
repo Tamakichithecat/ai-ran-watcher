@@ -27,10 +27,10 @@ jobs:
 
       - name: Run collector
         env:
-          SLACK_BOT_TOKEN:    ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL_ID:   ${{ secrets.SLACK_CHANNEL_ID }}
-          CLAUDE_PROJECT_URL: ${{ secrets.CLAUDE_PROJECT_URL }}
-          GITHUB_TOKEN:       ${{ secrets.GITHUB_TOKEN }}
+          SLACK_BOT_TOKEN:      ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID:     ${{ secrets.SLACK_CHANNEL_ID }}
+          CLAUDE_PROJECT_URL:   ${{ secrets.CLAUDE_PROJECT_URL }}
+          GITHUB_MODELS_TOKEN:  ${{ secrets.GITHUB_MODELS_TOKEN }}
         run: python collector.py
 
       - name: Commit digest
