@@ -8,6 +8,7 @@ import re
 import requests
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from urllib.parse import quote
 
 BASE_DIR = Path(__file__).parent
 DIGEST_FILE = BASE_DIR / "digest.md"
@@ -86,10 +87,18 @@ def slack_post(text: str, bot_token: str, channel_id: str,
         return ""
 
 
+# ── Claude 深掘りリンク ───────────────────────────────────────────────────────
+
+def make_claude_link(article_url: str) -> str:
+    """記事URLを渡すとClaudeで深掘りするためのURLを返す"""
+    prompt = f"次の記事についてAI RANの観点から内容を深掘りしてください: {article_url}"
+    return f"https://claude.ai/new?q={quote(prompt)}"
+
+
 # ── 通知 ──────────────────────────────────────────────────────────────────────
 
 def notify(digest: dict, bot_token: str, channel_id: str):
-    top = digest["articles"][:5]
+    top = digest["articles"][:10]
 
     top_lines = "\n".join(
         f"{'🔺' if a['priority'] == 'high' else '・'} "
@@ -120,8 +129,9 @@ def notify(digest: dict, bot_token: str, channel_id: str):
             f"<{a['url']}|{a['source']}>\n"
         )
         if a["bullets"]:
-            # Coworkが書き込んだ日本語サマリーをそのまま使用
             article_text += "\n" + "\n".join(a["bullets"])
+        # Claude 深掘りリンク
+        article_text += f"\n🤖 <{make_claude_link(a['url'])}|Claudeで深掘り>"
         slack_post(article_text, bot_token, channel_id, thread_ts)
 
 
