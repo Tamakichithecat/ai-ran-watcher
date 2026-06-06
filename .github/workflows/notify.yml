@@ -1,0 +1,32 @@
+name: Notify Slack on Digest Push
+
+on:
+  push:
+    paths:
+      - 'digest.md'
+    branches:
+      - main
+
+jobs:
+  notify:
+    # github-actions[bot] によるコミット（daily.yml）では実行しない
+    # Cowork / 手動 push のときのみ実行
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Send Slack notification
+        env:
+          SLACK_BOT_TOKEN:    ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID:   ${{ secrets.SLACK_CHANNEL_ID }}
+          CLAUDE_PROJECT_URL: ${{ secrets.CLAUDE_PROJECT_URL }}
+        run: python notifier.py
