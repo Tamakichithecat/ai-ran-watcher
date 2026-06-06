@@ -179,10 +179,20 @@ def generate_digest(articles: list[dict]) -> str:
     for a in articles:
         by_cat.setdefault(a["category"], []).append(a)
 
+    cat_counts = {cat: len(by_cat.get(cat, [])) for cat, _ in SECTION_MAP}
+    cat_line = "　".join([
+        f"🔴標準化:{cat_counts.get('standardization', 0)}",
+        f"📄論文:{cat_counts.get('paper', 0)}",
+        f"🏢企業:{cat_counts.get('corporate', 0)}",
+        f"🇯🇵国内:{cat_counts.get('media_jp', 0)}",
+        f"📰海外:{cat_counts.get('media', 0)}",
+    ])
+
     lines = [
         f"# 📡 AI RAN Digest — {now.strftime('%Y-%m-%d')}",
         "",
         f"収集日時: {now.strftime('%Y-%m-%d %H:%M')} JST | 新規記事: {len(articles)}件",
+        cat_line,
         "",
     ]
 
