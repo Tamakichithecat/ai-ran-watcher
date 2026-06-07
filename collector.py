@@ -10,6 +10,7 @@ import yaml
 import json
 import re
 import hashlib
+import time as time_module
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from urllib.parse import urljoin
@@ -22,6 +23,7 @@ DIGEST_FILE = BASE_DIR / "digest_raw.md"
 
 JST = timezone(timedelta(hours=9))
 DEDUP_DAYS = 30
+ARTICLE_MAX_AGE_DAYS = 7   # これより古いRSS記事は除外
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; AI-RAN-Watcher/1.0)"}
 
 # IEEEのTOCに含まれるメタエントリを除外するキーワード
@@ -63,11 +65,28 @@ def url_hash(url: str) -> str:
 
 # ── Fetchers ──────────────────────────────────────────────────────────────────
 
+def _is_recent(entry) -> bool:
+    """ARTICLE_MAX_AGE_DAYS 以内の記事かどうか判定。日付不明の場合は収集対象とする"""
+    parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+    if not parsed:
+        return True
+    try:
+        pub = datetime.fromtimestamp(time_module.mktime(parsed), tz=timezone.utc)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=ARTICLE_MAX_AGE_DAYS)
+        return pub >= cutoff
+    except Exception:
+        return True
+
+
 def fetch_rss(source: dict) -> list[dict]:
     try:
         feed = feedparser.parse(source["url"])
         articles = []
+        skipped = 0
         for entry in feed.entries[:50]:
+            if not _is_recent(entry):
+                skipped += 1
+                continue
             title = re.sub(r"<[^>]+>", "", entry.get("title", "")).strip()
             if title.lower() in _NOISE_TITLES:
                 continue
@@ -79,7 +98,8 @@ def fetch_rss(source: dict) -> list[dict]:
                 "category": source["category"],
                 "priority": source["priority"],
             })
-        print(f"  [{len(articles):>2}件] {source['name']}")
+        suffix = f" ({skipped}件古記事スキップ)" if skipped else ""
+        print(f"  [{len(articles):>2}件] {source['name']}{suffix}")
         return articles
     except Exception as e:
         print(f"  [ERROR] {source['name']}: {e}")
