@@ -1,20 +1,10 @@
-# 📡 AI RAN Digest — 2026-06-26
+# 📡 AI RAN Digest — 2026-06-27
 
-収集日時: 2026-06-26 08:06 JST | 新規記事: 3件
-🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:1
+収集日時: 2026-06-27 07:58 JST | 新規記事: 1件
+🔴標準化:0　📄論文:0　🏢企業:0　🇯🇵国内:1　📰海外:0
 
-## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
+## 🇯🇵 日本語メディア
 
-🔺 **Amdocs, 1Finity, Supermicro complete AI-RAN field-validated blueprint - ET Telecom**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQjd6TGk4TU1qLXdvSDRZdFYzQ1NESU9oZjMyNm4xYjRVb0haYno2R2diZ21GdThseGpZVWp4cjlxNlZlQWEzNkpNX2o0czZnQVNoOU5Tei1RelVua1I0QWoyLXU5NWhVRFZnRm4xbzEyc1lBM3JaOUs3QkI3UW9icjF3U1hnTklYak01a1U5bEItYmYtRUNWVk1Ea2hPam9WWGFsckZlcFo3dGdTTzVJT290ZGk4bG1hUDdxc0RyQXFzSzVlVTA0QkdIZDhoUDVaSWd6UUVkNFY5MU0xS2d6Ym1zd0tkdUZNUm15TmhpLUllSlZiSWNvRWQ2anBqZ9IBgwJBVV95cUxNQXJCeHdDR09RbDdFcWJHLVVsY3R5U0pJRWtDOVNORGVZMGNjTi1tbjhSeXQ0cGI2UnZEeWtZakZaV0V2T0I2X0xBNktDWVFSaW1tZ0V1V0FzcnBuS2dPNTVDVWtVQy1yMktZOGZGeFhEVjYyVjVJY2NDSmdsN01YOS0xdS1keDc1ZXF3MmI0ME9xY01pSjREVll0ZEdpWl9sWVp2UmxfcjFqU3JZcWVoX1NDOGNDTTlHdTRaZjRpbDdMcUxOeXQyaWdFMmMwZXlmYlpSbGphSFpZSXB1Wl9oSlY5MmJ1ZlVoNTJWY21QSkg0bEp1Yi1rdzNlV0lVTEgwQ3ZN?oc=5
-   Amdocs, 1Finity, Supermicro complete AI-RAN field-validated blueprint&nbsp;&nbsp;ET Telecom
-
-🔺 **Amdocs completes live AI-RAN field-validated blueprint - Comms Business**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMioAFBVV95cUxQYkt4T2JaNDVLR01JRWpoTlJxMTFtTS1GVkVnUVc1SUx2Uzh3LUZtRXlHREZlc0hLeDhHMjhhaS0tbDM4S19tN1VqTlBXbXpFUGx6NlJ4NGszSnlWVGRiQndfWUJyZlNRLS1rQ1duNlpVNEhDc0dnc2tzRkF3b3N0MVBuMGc4cUhiZnVtMXhuLW1aSW5BOF91RkN0RkVEZ0dD?oc=5
-   Amdocs completes live AI-RAN field-validated blueprint&nbsp;&nbsp;Comms Business
-
-## 📰 業界・一般メディア（英語）
-
-🔺 **How Is Microsoft Applying Network AI at Scale?**
-   Fierce Wireless | https://www.fierce-network.com/sponsored/how-microsoft-applying-network-ai-scale
-   AI is taking on routine operational work inside telecom networks, changing how teams scale and how tasks are executed. Microsoft shares both the opportunity and
+・ **「日本は6G周波数の議論すら始まっていない」 クアルコムが抱く危機感と、AI時代の次世代通信**
+   ITmedia Mobile | https://www.itmedia.co.jp/mobile/articles/2606/26/news131.html
+   Qualcommは6Gの商用化に向けて「AI時代の中での6G」を掲げ、3つの柱や新たな周波数帯の重要性を説明した。日本での周波数議論の遅れに懸念を示す一方、端末主導のAIネイティブ・プロトコルなどの独自技術を提案する。さらに、基地局をセンサーとする新技術やシングルキャリアによる400MHz幅の活用で、地道な性能向上を目
