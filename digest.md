@@ -1,81 +1,84 @@
-# 📡 AI RAN Digest — 2026-06-27
+# 📡 AI RAN Digest — 2026-06-28
 
-収集日時: 2026-06-27 08:00 JST | 新規記事: 10件
-🔴標準化:2　📄論文:2　🏢企業:3　🇯🇵国内:1　📰海外:2
+収集日時: 2026-06-28 09:12 JST | 新規記事: 11件
+🔴標準化:3　📄論文:1　🏢企業:4　🇯🇵国内:1　📰海外:2
 
-> ℹ️ 本日のRAWリスト（digest_raw.md）は0件（最終更新 2026-06-06）のため、Web検索による補完で本Digestを生成しています。直近7日（6/20–6/27）はAI RAN専業の新規発表が少なく、6月前半の重要記事のうち前回Digest（6/20）未掲載のものを優先的に採録しました。各記事の実公開日を本文に明記しています。
+> ℹ️ 本日のRAWリスト（digest_raw.md）は0件（最終更新 2026-06-06）のため、Web検索による補完で本Digestを生成しています。前回Digest（2026-06-27）に未掲載の記事のみを採録し、URL重複を避けています。各記事の実公開日を本文に明記しています。
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
-🔺 **AI-RAN Alliance Reaches Major Milestone, Showcasing Breakthrough Momentum for AI-Native Networks**
-   AI-RAN Alliance / HPCwire | https://www.hpcwire.com/off-the-wire/ai-ran-alliance-reaches-major-milestone-showcasing-breakthrough-momentum-for-ai-native-networks/
-   • AI-RAN Allianceの会員数が132（技術企業43・学術機関15・業界団体6・研究所4等）に到達。QualcommやSK Telecom、Vodafoneが理事に加わり、日本の総務省（MIC）も新規メンバーとして参画。
-   • RANの全レイヤにAIを組み込む33件のデモを公開し、無線信号処理の最適化・自動化からエッジでのAI推論まで幅広いユースケースを提示。4件の業界ブループリントも新設。
-   • 先進的なAI-RANコンセプトを資金支援する提案公募を実施中。提出締切は2026年7月31日。
+🔺 **O-RAN ALLIANCE Completed its Specification Release 5 (O-RAN-R005)**
+   O-RAN ALLIANCE | https://www.o-ran.org/blog/o-ran-alliance-completed-its-specification-release-5-o-ran-r005
+   • O-RAN ALLIANCEが最新仕様群「Release 5（O-RAN-R005）」を完成（2026年6月8日）。AI RANフレームワークを強化し、Non-RT RIC（準リアルタイムRIC）とNear-RT RIC（ニアリアルタイムRIC）双方でAI/MLモデルの開発・学習を支援するワークフローサービスを追加。
+   • 新たにD2インタフェースを導入し、異なるO-DU間でのキャリアアグリゲーションを可能にして周波数利用効率を改善。massive MIMOのビームフォーミング最適化をAI RAN／機械学習で行う基盤も整備。
+   • セキュリティ面ではTLS 1.3要件の拡大、ゼロトラストフレームワーク強化、AI/MLセキュリティ制御を追加。
 
-🔺 **3GPP Release 20: Completing the 5G-Advanced Evolution and Preparing for Global 6G Standardization**
-   Qualcomm / RCR Wireless | https://www.qualcomm.com/news/onq/2025/06/3gpp-release-20-completing-5g-advanced-evolution-preparing-for-global-6g-standardization
-   • Release 20でAIネイティブな空中線インタフェース（AI air interface）の規定が進行。二者間モデル（two-sided model）によるCSI（チャネル状態情報）圧縮と、標準準拠の端末データ収集の仕様化が主対象。
-   • 「AI for next-generation RAN」プロジェクトでは新たなモビリティ（ハンドオーバ等）ユースケースを検討。AI/MLによるモビリティ改善が正式作業項目に。
-   • Rel-20は5G-Advanced完成と6Gスタディの橋渡し。6Gの規範的仕様はRel-21（2029年完了見込み）、商用展開は2030年前後の想定。
+・ **3GPP TSGs#112, 8–12 June, Singapore — Rel-19 Summary**
+   3GPP | https://www.3gpp.org/ftp/Information/presentations/presentations_2026/2026_04_Rel19.pdf
+   • 2026年6月8〜12日にシンガポールで開催された3GPP TSG#112プレナリ会合の資料。Release 19の作業項目の総括と、5G-Advancedの完成およびRelease 20（6Gスタディ）への橋渡しを整理。
+   • AI/MLによるNG-RAN／5G-Advanced高度化（CSIフィードバック、ビーム管理、測位等）の進捗が報告対象。
+
+・ **O-RAN ALLIANCE Advances Open and AI-Driven RAN Standardization, Setting Priorities for Scaled Deployments and 6G**
+   O-RAN ALLIANCE | https://www.o-ran.org/press-releases/o-ran-alliance-advances-open-and-ai-driven-ran-standardization-by-setting-priorities-for-scaled-deployments-and-collaboration-towards-6g
+   • O-RAN ALLIANCEが商用スケール展開とAI駆動RANの標準化に向けた優先課題を提示。Open RANの大規模導入を見据えた相互運用性と運用自動化の強化方針を示す。
+   • 6Gに向けた他団体との協調（AI-RAN Alliance等）の方向性にも言及し、AIネイティブなオープン無線アクセスへの移行を加速。
 
 ## 📄 論文・技術文書（IEEE Xplore等）
 
-🔺 **Agentic AI-RAN: Enabling Intent-Driven, Explainable and Self-Evolving Open RAN Intelligence**
-   著者😎：（arXiv掲載論文／著者名は原文を参照）
-   arXiv (2602.24115) | https://arxiv.org/pdf/2602.24115
-   • LLMベースのエージェント（agentic AI）をO-RANのRIC（RAN Intelligent Controller）に適用し、運用者の意図（intent）を起点とした自律制御を実現する枠組みを提案。
-   • 判断根拠を説明可能（explainable）にし、運用フィードバックから自己進化（self-evolving）する設計で、xApp/rAppの自動生成・最適化を狙う。
-
-・ **Agentic AI for Intent-driven Optimization in Cell-free O-RAN**
-   著者😎：（arXiv掲載論文／著者名は原文を参照）
-   arXiv (2602.22539) | https://arxiv.org/pdf/2602.22539
-   • セルフリー（cell-free）構成のO-RANにおいて、意図駆動でリソース割当・干渉制御を最適化するエージェントAI手法を検討。
-   • 複数アクセスポイントを協調させる分散MIMO環境で、KPIを満たしつつ電力効率を高める制御を目指す研究。
+🔺 **Conflict Detection in AI-RAN: Efficient Interaction Learning and Autonomous Graph Reconstruction**
+   著者😎：Joao F. Santos、Arshia Zolghadr（Virginia Tech / Commonwealth Cyber Initiative）、Scott Kuzdeba（BAE Systems）、Jacek Kibiłda（Virginia Tech）
+   arXiv (2601.13213) | https://arxiv.org/pdf/2601.13213
+   • AIネイティブ網では複数のAIエージェント（xApp/rApp等）がスループット最大化・省電力・負荷分散など競合する目標を同時に追求するため、制御の衝突（conflict）が不可避になる課題を扱う論文。
+   • 衝突検出を「相互作用学習・グラフ再構成・衝突識別」の3段階に分解。重い従来のGNNに代えて軽量なtwo-tower encoderを提案し、KPIとパラメータの関係を効率学習。
+   • 手動の閾値設定が不要なsparsemaxベースの手法で衝突グラフを自律再構成。従来GNN比で学習効率を最大約14倍改善したと報告。
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Nvidia has a radical new AI-RAN plan – a 6G radio unit chip**
+🔺 **Nokia and Indosat Lock in Nationwide AI-RAN Rollout in Indonesia**
+   企業名🏢：Nokia / Indosat Ooredoo Hutchison
+   RCR Wireless | https://www.rcrwireless.com/20260612/ai-infrastructure/nokia-indosat-ai-ran
+   • NokiaとインドネシアのIndosatが、全国規模のAI-RAN展開で合意（2026年6月12日報道）。商用網へのAI-RAN本格導入として注目される事例。
+   • 基地局へのAI活用により周波数・電力効率の改善と運用自動化を狙う。新興市場での大規模AI-RAN商用化の先行ケース。
+
+・ **Ericsson Adds AI in RAN Software for 5G Network Optimisation**
+   企業名🏢：Ericsson
+   TelecomsTech News | https://www.telecomstechnews.com/news/ericsson-ai-in-ran-5g-network-optimisation/
+   • EricssonがRANソフトウェアにAI機能を組み込み、5G網の最適化を強化。スループットや周波数効率の向上、運用自動化を目的とする商用機能を提供。
+   • AI-RANを実証段階から既存5G網への商用適用へ広げる動きの一環。
+
+・ **NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations**
    企業名🏢：NVIDIA
-   Light Reading | https://www.lightreading.com/6g/nvidia-has-a-radical-new-ai-ran-plan-a-6g-radio-unit-chip
-   • NVIDIAがこれまでのCU/DU（中央/分散ユニット）向けGPUに加え、無線機本体（RU=Radio Unit）に組み込むGPUを「6Gでは必須になる」と主張（2026年6月8日報道）。AI-RAN戦略を無線機側へ拡張。
-   • massive MIMOでは低位レイヤ1（low PHY）処理やビームフォーミング向けASICがRUに搭載されるが、これをGPUで置換する構想。6Gのultra-MIMO（最大1,024素子）や7GHz帯では演算需要が約32倍に増大する点を根拠とする。
-   • 消費電力（RUは網全体の最大9割を占有）への懸念に対し、車載・ロボット向けの100W未満・100℃動作の組込みGPU技術で対応可能と説明。MarvellのOcteon基地局プロセッサとの連携も浮上。
+   NVIDIA Blog (DTW Ignite 2026) | https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/
+   • NVIDIAが通信事業者の運用（network operations）向けに、24時間稼働するエージェントAIを提供する構想を発表（DTW Ignite 2026）。網の監視・障害対応・最適化を自律化。
+   • AI-RANの計算基盤上で動くagentic AIにより、運用コスト削減とサービス品質維持の両立を狙う。
 
-🔺 **NVIDIA Open Sources Aerial CUDA-Accelerated RAN and Joins the OCUDU Ecosystem Foundation**
-   企業名🏢：NVIDIA / Linux Foundation
-   NVIDIA Blog | https://blogs.nvidia.com/blog/software-defined-ai-ran/
-   • NVIDIAがAerial CUDA-accelerated RANライブラリをオープンソース化（GitHub公開）。約600万人のCUDA開発者がRANソフトウェア開発に参加できる土壌を整備。
-   • Linux Foundation傘下の新団体「OCUDU（Open CU DU）Ecosystem Foundation」に参画し、オープンソースAI-RAN開発を加速。次世代無線の研究・商用化を後押し。
-   • ソフトウェア定義・GPUアクセラレーションをAI-native 6Gの共通基盤と位置付ける動き。
-
-・ **NVIDIA, T-Mobile and Partners Integrate Physical AI Applications on AI-RAN-Ready Infrastructure**
-   企業名🏢：NVIDIA / T-Mobile
-   T-Mobile Newsroom | https://www.t-mobile.com/news/network/nvidia-t-mobile-and-partners-integrate-physical-ai-applications-on-ai-ran-ready-infrastructure
-   • NVIDIA・T-MobileがNokiaおよび開発者エコシステムと連携し、分散エッジAIネットワーク上でフィジカルAIアプリを動作させる構想を提示。AI-RAN基盤を「分散型の高性能エッジAI計算プラットフォーム」へ転換。
-   • Fogsphere・LinkerVision・Levatas・Vaidio・Siemens Energy等が、NVIDIA Metropolis Blueprint（映像検索・要約=VSS）を用いた推論・ビジョンAIエージェントを構築。サンノゼ市が初期評価に参加。
+・ **MSI Unveils Scalable AI-RAN with NVIDIA AI Aerial Solutions at MWC 2026**
+   企業名🏢：MSI / NVIDIA
+   TechPowerUp | https://www.techpowerup.com/346920/msi-unveils-scalable-ai-ran-with-nvidia-ai-aerial-solutions-to-accelerate-5g-and-beyond-at-mwc-2026
+   • MSIがNVIDIA AI Aerialを採用したスケーラブルなAI-RANソリューションをMWC 2026で発表。5Gおよびそれ以降（6G）への展開を加速。
+   • COTS（汎用サーバ）ベースでRAN処理とAI推論をGPUに集約する構成を提示し、AI-RANのハードウェア選択肢を拡大。
 
 ## 🇯🇵 日本語メディア
 
-・ **ソフトバンクとノキア、AI-RANで社外のAIワークロードを実行可能に〜AITRASオーケストレーターを拡張〜**
-   メディア名📰：ソフトバンク（企業・IR）
-   ソフトバンク | https://www.softbank.jp/corp/news/press/sbkk/2026/20260225_01/
-   • ソフトバンクとノキアが、AI-RAN基盤上で通信事業者の社外（サードパーティ）AIワークロードも実行可能にする取り組みを発表（2026年2月25日）。基地局近傍のGPUを外部AI処理にも開放。
-   • コア基盤「AITRAS」のオーケストレーターを拡張し、RAN処理とAI推論のGPU共用を制御。空きリソースを収益化し、通信インフラの新たな収益機会拡大を狙う。
+・ **ソフトバンクが唱える「AI-RAN」、そのしくみは**
+   メディア名📰：ケータイ Watch（藤岡雅宣の連載）
+   ケータイ Watch | https://k-tai.watch.impress.co.jp/docs/column/fujioka/1643482.html
+   • ソフトバンクが推進するAI-RANの仕組みを解説する連載記事。AIとRANを同一のNVIDIA GPUプラットフォーム上で動かす「統合型」アーキテクチャの考え方を整理。
+   • 基地局の空き計算資源をAI推論に転用する発想（AI-on-RAN／AI-and-RAN）や、AITRASのオーケストレーションによる収益化の狙いを一般読者向けに説明。
 
 ## 📰 業界・一般メディア（英語）
 
-・ **AI-RAN Alliance momentum grows**
-   メディア名📰：Mobile World Live
-   Mobile World Live | https://www.mobileworldlive.com/ranvendors/ai-ran-alliance-momentum-grows/
-   • AI-RAN Allianceの会員拡大とエコシステム形成の加速を報じる解説記事。韓国AINA（AI Network Alliance）との協業など、商用化に向けた国際連携の動きを整理。
-   • オペレータ・ベンダ・研究機関がソフトウェア定義／GPUアクセラレーション基盤に収斂しつつある業界トレンドを概観。
+・ **Ericsson's June 2026 Mobility Report: Agentic AI Impact on Network Traffic**
+   メディア名📰：IEEE ComSoc Technology Blog
+   IEEE ComSoc | https://techblog.comsoc.org/2026/06/16/ericssons-june-2026-mobility-report-agentic-ai-impact-on-network-traffic/
+   • Ericssonの最新Mobility Report（2026年6月）を解説。エージェントAI（agentic AI）の普及がモバイルデータトラフィックに与える影響を分析。
+   • AI由来のトラフィック増がRAN設計・容量計画に及ぼす示唆を整理し、AI-RANによる効率化の必要性を裏付ける内容。
 
-・ **AI RAN in 2026: What lies ahead?**
-   メディア名📰：Fierce Network
-   Fierce Network | https://www.fierce-network.com/wireless/ai-ran-2026-what-lies-ahead
-   • 2026年のAI-RANの論点を展望。実証から商用展開へ移行する一方、GPU電力効率・統合の複雑さ・コスト最適化といった課題が残ると指摘。
-   • RICによるAI駆動の最適化で周波数効率10〜15%改善の報告が出る中、ベンダ間相互運用とマルチテナント運用の成熟が鍵になると分析。
+・ **Samsung AI-RAN Demo Signals Telecom Cloud Shift at MWC 2026**
+   メディア名📰：CloudComputing News
+   CloudComputing News | https://www.cloudcomputing-news.net/news/samsung-ai-ran-demo-signals-telecom-cloud-shift-at-mwc-2026/
+   • SamsungがMWC 2026でAI-RANデモを公開し、通信網のクラウド／ソフトウェア化への流れを示したと報じる記事。vRANとAI処理の統合がテーマ。
+   • 主要ベンダがGPUアクセラレーション基盤に収斂しつつある業界トレンドを補強する事例。
 
 ---
 *このDigestはAI RANウォッチャーが自動生成しています。*
