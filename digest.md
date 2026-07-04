@@ -1,84 +1,53 @@
-# 📡 AI RAN Digest — 2026-06-28
+# 📡 AI RAN Digest — 2026-07-04
 
-収集日時: 2026-06-28 09:12 JST | 新規記事: 11件
-🔴標準化:3　📄論文:1　🏢企業:4　🇯🇵国内:1　📰海外:2
+収集日時: 2026-07-04 21:40 JST | 新規記事: 5件
+🔴標準化:1　📄論文:1　🏢企業:1　🇯🇵国内:1　📰海外:1
 
-> ℹ️ 本日のRAWリスト（digest_raw.md）は0件（最終更新 2026-06-06）のため、Web検索による補完で本Digestを生成しています。前回Digest（2026-06-27）に未掲載の記事のみを採録し、URL重複を避けています。各記事の実公開日を本文に明記しています。
+> ℹ️ 本日のRAWリスト（digest_raw.md）は0件（最終更新 2026-06-06）のため、Web検索による補完で本Digestを生成しています。前回Digest（2026-06-28）に未掲載の記事のみを採録し、URL重複を避けています。各記事の実公開日を本文に明記しています。
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
-🔺 **O-RAN ALLIANCE Completed its Specification Release 5 (O-RAN-R005)**
-   O-RAN ALLIANCE | https://www.o-ran.org/blog/o-ran-alliance-completed-its-specification-release-5-o-ran-r005
-   • O-RAN ALLIANCEが最新仕様群「Release 5（O-RAN-R005）」を完成（2026年6月8日）。AI RANフレームワークを強化し、Non-RT RIC（準リアルタイムRIC）とNear-RT RIC（ニアリアルタイムRIC）双方でAI/MLモデルの開発・学習を支援するワークフローサービスを追加。
-   • 新たにD2インタフェースを導入し、異なるO-DU間でのキャリアアグリゲーションを可能にして周波数利用効率を改善。massive MIMOのビームフォーミング最適化をAI RAN／機械学習で行う基盤も整備。
-   • セキュリティ面ではTLS 1.3要件の拡大、ゼロトラストフレームワーク強化、AI/MLセキュリティ制御を追加。
-
-・ **3GPP TSGs#112, 8–12 June, Singapore — Rel-19 Summary**
-   3GPP | https://www.3gpp.org/ftp/Information/presentations/presentations_2026/2026_04_Rel19.pdf
-   • 2026年6月8〜12日にシンガポールで開催された3GPP TSG#112プレナリ会合の資料。Release 19の作業項目の総括と、5G-Advancedの完成およびRelease 20（6Gスタディ）への橋渡しを整理。
-   • AI/MLによるNG-RAN／5G-Advanced高度化（CSIフィードバック、ビーム管理、測位等）の進捗が報告対象。
-
-・ **O-RAN ALLIANCE Advances Open and AI-Driven RAN Standardization, Setting Priorities for Scaled Deployments and 6G**
-   O-RAN ALLIANCE | https://www.o-ran.org/press-releases/o-ran-alliance-advances-open-and-ai-driven-ran-standardization-by-setting-priorities-for-scaled-deployments-and-collaboration-towards-6g
-   • O-RAN ALLIANCEが商用スケール展開とAI駆動RANの標準化に向けた優先課題を提示。Open RANの大規模導入を見据えた相互運用性と運用自動化の強化方針を示す。
-   • 6Gに向けた他団体との協調（AI-RAN Alliance等）の方向性にも言及し、AIネイティブなオープン無線アクセスへの移行を加速。
+🔺 **Analysis: Cohere's $28M U.S. DoD FutureG ISAC Contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT Standards Outlook**
+   IEEE ComSoc Technology Blog（2026年7月2日） | https://techblog.comsoc.org/2026/07/02/analysis-coheres-28m-u-s-dod-futureg-isac-contract-otfs-vs-ofdm-6g-imt-2030-standards-outlook/
+   • 米国防総省（DoW）傘下のFutureG Officeが、Cohere Technologiesの独自波形Zak-OTFS（Pulsone）を用いたISAC（通信・センシング統合）マルチ波形RANプロトタイプ開発に2800万ドルを拠出。ドローン検知・追跡を主目的とする。
+   • 3GPPは6G NR（IMT-2030 RIT申請）についてOFDM系波形を基本方針とする見通しが強く、OTFSは高ドップラー環境やNTN、ISACなど限定用途での採用検討にとどまる可能性が高いと分析。
+   • ITU-R WP5DはIMT-2030のRIT候補提案を2027年2月～2029年2月の期間で募集中であり、OTFSが正式な6G標準波形として採用されるかは今後の技術評価・業界コンセンサス次第。
 
 ## 📄 論文・技術文書（IEEE Xplore等）
 
-🔺 **Conflict Detection in AI-RAN: Efficient Interaction Learning and Autonomous Graph Reconstruction**
-   著者😎：Joao F. Santos、Arshia Zolghadr（Virginia Tech / Commonwealth Cyber Initiative）、Scott Kuzdeba（BAE Systems）、Jacek Kibiłda（Virginia Tech）
-   arXiv (2601.13213) | https://arxiv.org/pdf/2601.13213
-   • AIネイティブ網では複数のAIエージェント（xApp/rApp等）がスループット最大化・省電力・負荷分散など競合する目標を同時に追求するため、制御の衝突（conflict）が不可避になる課題を扱う論文。
-   • 衝突検出を「相互作用学習・グラフ再構成・衝突識別」の3段階に分解。重い従来のGNNに代えて軽量なtwo-tower encoderを提案し、KPIとパラメータの関係を効率学習。
-   • 手動の閾値設定が不要なsparsemaxベースの手法で衝突グラフを自律再構成。従来GNN比で学習効率を最大約14倍改善したと報告。
+🔺 **From RAN Control to Agentic Intelligence: Architecture and Vision for Energy Efficient AI-RAN**
+   著者😎：Sabrine Aroua、Alexis I. Aravanis、Ilias Chatzistefanidis、Hamza Abbar、Anh-Khoa Dang、Anastasios Giovanidis、Salah-Eddine El Ayoubi、Stephane Senecal、Martha Vlachou Konchylaki、Navid Nikaein（Ericsson Research / Orange Innovation / EURECOM / BubbleRAN 他）
+   arXiv（2606.21955、IEEE Network Magazine査読中） | https://arxiv.org/pdf/2606.21955
+   • 6GではAI-RAN（通信基盤とAI処理基盤の共用化）が高密度展開と常時AI処理により、RANの消費電力を大幅に増加させると指摘。
+   • 既存のO-RAN（RIC・SMOによるプログラマブル制御）はポリシー駆動が中心で、複数アプリケーション間の適応的な省電力連携には限界があると分析。
+   • LLM駆動のセマンティック・インテント抽象化を用いた「エージェント型AI-RAN」アーキテクチャを提案し、異種ワークロード間の適応オーケストレーション・競合解決・省エネ多目的最適化の実現構想を提示。
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Nokia and Indosat Lock in Nationwide AI-RAN Rollout in Indonesia**
-   企業名🏢：Nokia / Indosat Ooredoo Hutchison
-   RCR Wireless | https://www.rcrwireless.com/20260612/ai-infrastructure/nokia-indosat-ai-ran
-   • NokiaとインドネシアのIndosatが、全国規模のAI-RAN展開で合意（2026年6月12日報道）。商用網へのAI-RAN本格導入として注目される事例。
-   • 基地局へのAI活用により周波数・電力効率の改善と運用自動化を狙う。新興市場での大規模AI-RAN商用化の先行ケース。
-
-・ **Ericsson Adds AI in RAN Software for 5G Network Optimisation**
-   企業名🏢：Ericsson
-   TelecomsTech News | https://www.telecomstechnews.com/news/ericsson-ai-in-ran-5g-network-optimisation/
-   • EricssonがRANソフトウェアにAI機能を組み込み、5G網の最適化を強化。スループットや周波数効率の向上、運用自動化を目的とする商用機能を提供。
-   • AI-RANを実証段階から既存5G網への商用適用へ広げる動きの一環。
-
-・ **NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations**
-   企業名🏢：NVIDIA
-   NVIDIA Blog (DTW Ignite 2026) | https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/
-   • NVIDIAが通信事業者の運用（network operations）向けに、24時間稼働するエージェントAIを提供する構想を発表（DTW Ignite 2026）。網の監視・障害対応・最適化を自律化。
-   • AI-RANの計算基盤上で動くagentic AIにより、運用コスト削減とサービス品質維持の両立を狙う。
-
-・ **MSI Unveils Scalable AI-RAN with NVIDIA AI Aerial Solutions at MWC 2026**
-   企業名🏢：MSI / NVIDIA
-   TechPowerUp | https://www.techpowerup.com/346920/msi-unveils-scalable-ai-ran-with-nvidia-ai-aerial-solutions-to-accelerate-5g-and-beyond-at-mwc-2026
-   • MSIがNVIDIA AI Aerialを採用したスケーラブルなAI-RANソリューションをMWC 2026で発表。5Gおよびそれ以降（6G）への展開を加速。
-   • COTS（汎用サーバ）ベースでRAN処理とAI推論をGPUに集約する構成を提示し、AI-RANのハードウェア選択肢を拡大。
+🔺 **SoftBank Establishes "SB Neo" to Launch Neocloud Business in the U.S., Backed by 10-Gigawatt-Scale Energy and AI Infrastructure**
+   企業名🏢：SoftBank Corp. / SoftBank Group Corp.
+   SoftBank 企業・IR（2026年7月2日） | https://www.softbank.jp/corp/news/press/sbkk/2026/20260702_01/
+   • ソフトバンクとソフトバンクグループが、米国でネオクラウド事業を展開する新会社「SB Neo, Inc.」（出資比率51%：49%）を2026年7月に設立。
+   • グループが開発中の10ギガワット規模のエネルギー・AIインフラを基盤に、大規模AIモデルの学習・推論向け計算資源を米国の大企業・ハイパースケーラー向けに2027年度から提供予定。
+   • 日本で提供中のAIデータセンター向けソフトウエアスタック「Infrinia AI Cloud OS」のノウハウを活用する方針で、AI-RANを含むグループ全体のAIインフラ拡大戦略の一環と位置づけられる。
 
 ## 🇯🇵 日本語メディア
 
-・ **ソフトバンクが唱える「AI-RAN」、そのしくみは**
-   メディア名📰：ケータイ Watch（藤岡雅宣の連載）
-   ケータイ Watch | https://k-tai.watch.impress.co.jp/docs/column/fujioka/1643482.html
-   • ソフトバンクが推進するAI-RANの仕組みを解説する連載記事。AIとRANを同一のNVIDIA GPUプラットフォーム上で動かす「統合型」アーキテクチャの考え方を整理。
-   • 基地局の空き計算資源をAI推論に転用する発想（AI-on-RAN／AI-and-RAN）や、AITRASのオーケストレーションによる収益化の狙いを一般読者向けに説明。
+・ **ソフトバンクが米国にネオクラウドの新会社「SB Neo」を設立**
+   メディア名📰：BUSINESS NETWORK（2026年7月2日）
+   BUSINESS NETWORK | https://businessnetwork.jp/article/35764/
+   • ソフトバンクが米国オハイオ州の「PORTS Technology Campus」を中核に、発電容量とデータセンターを直結させる垂直統合型AIインフラを整備する計画と報道。
+   • SB Neoはハイパースケーラー等へのGPU計算資源提供（ネオクラウド）を担い、2027年度のサービス開始を目指す。
+   • 孫正義氏は「グループを挙げて世界最高水準のAIインフラを展開し、AI革命を推進する」とコメントし、日本国内でもギガワット級AIデータセンター構築を進める方針を表明。
 
 ## 📰 業界・一般メディア（英語）
 
-・ **Ericsson's June 2026 Mobility Report: Agentic AI Impact on Network Traffic**
-   メディア名📰：IEEE ComSoc Technology Blog
-   IEEE ComSoc | https://techblog.comsoc.org/2026/06/16/ericssons-june-2026-mobility-report-agentic-ai-impact-on-network-traffic/
-   • Ericssonの最新Mobility Report（2026年6月）を解説。エージェントAI（agentic AI）の普及がモバイルデータトラフィックに与える影響を分析。
-   • AI由来のトラフィック増がRAN設計・容量計画に及ぼす示唆を整理し、AI-RANによる効率化の必要性を裏付ける内容。
-
-・ **Samsung AI-RAN Demo Signals Telecom Cloud Shift at MWC 2026**
-   メディア名📰：CloudComputing News
-   CloudComputing News | https://www.cloudcomputing-news.net/news/samsung-ai-ran-demo-signals-telecom-cloud-shift-at-mwc-2026/
-   • SamsungがMWC 2026でAI-RANデモを公開し、通信網のクラウド／ソフトウェア化への流れを示したと報じる記事。vRANとAI処理の統合がテーマ。
-   • 主要ベンダがGPUアクセラレーション基盤に収斂しつつある業界トレンドを補強する事例。
+🔺 **Dell'Oro: AI RAN Revenue Forecast: $35B from 2026-to-2030; 3 Types of AI RAN Explained**
+   メディア名📰：IEEE ComSoc Technology Blog（2026年6月30日、Dell'Oro Group調査）
+   IEEE ComSoc | https://techblog.comsoc.org/2026/06/30/delloro-ai-ran-revenue-forecast-35b-from-2026-to-2030-3-types-of-ai-ran-explained/
+   • 調査会社Dell'Oroが、2026～2030年の累積AI RAN市場規模を350億ドルと予測。ただしAI RANが従来型RAN市場全体を拡大させる可能性は低いと指摘。
+   • 短期的にはAI-for-RAN（AIによるRAN最適化）、シングルパーパス型展開、非GPUアーキテクチャ、D-RAN・5G向けが市場の中心になると分析。
+   • GPUを用いたAI-and-RAN（GPU RAN）型は予測期間末までに10億ドル超規模へ成長すると上方修正されたが、依然として市場全体の一部にとどまる見通し。
 
 ---
 *このDigestはAI RANウォッチャーが自動生成しています。*
