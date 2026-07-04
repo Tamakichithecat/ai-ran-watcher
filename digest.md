@@ -1,53 +1,53 @@
-# 📡 AI RAN Digest — 2026-07-04
+# 📡 AI RAN Digest — 2026-07-05
 
-収集日時: 2026-07-04 21:40 JST | 新規記事: 5件
+収集日時: 2026-07-05 21:20 JST | 新規記事: 5件
 🔴標準化:1　📄論文:1　🏢企業:1　🇯🇵国内:1　📰海外:1
 
-> ℹ️ 本日のRAWリスト（digest_raw.md）は0件（最終更新 2026-06-06）のため、Web検索による補完で本Digestを生成しています。前回Digest（2026-06-28）に未掲載の記事のみを採録し、URL重複を避けています。各記事の実公開日を本文に明記しています。
+> ℹ️ 本日のRAWリスト（digest_raw.md）は0件（最終更新 2026-06-06）のため、Web検索による補完で本Digestを生成しています。前回Digest（2026-07-04）に未掲載の記事のみを採録し、URL重複を避けています。厳密な過去7日以内では十分な新規AI RAN記事が確認できなかったため、直近3週間程度まで範囲を広げて重要記事を選定しました。各記事の実公開日を本文に明記しています。
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
-🔺 **Analysis: Cohere's $28M U.S. DoD FutureG ISAC Contract; OTFS vs OFDM; 6G-NR/IMT 2030 RIT Standards Outlook**
-   IEEE ComSoc Technology Blog（2026年7月2日） | https://techblog.comsoc.org/2026/07/02/analysis-coheres-28m-u-s-dod-futureg-isac-contract-otfs-vs-ofdm-6g-imt-2030-standards-outlook/
-   • 米国防総省（DoW）傘下のFutureG Officeが、Cohere Technologiesの独自波形Zak-OTFS（Pulsone）を用いたISAC（通信・センシング統合）マルチ波形RANプロトタイプ開発に2800万ドルを拠出。ドローン検知・追跡を主目的とする。
-   • 3GPPは6G NR（IMT-2030 RIT申請）についてOFDM系波形を基本方針とする見通しが強く、OTFSは高ドップラー環境やNTN、ISACなど限定用途での採用検討にとどまる可能性が高いと分析。
-   • ITU-R WP5DはIMT-2030のRIT候補提案を2027年2月～2029年2月の期間で募集中であり、OTFSが正式な6G標準波形として採用されるかは今後の技術評価・業界コンセンサス次第。
+🔺 **3GPP Approves Timelines for Release 21 Which Will Specify 6G RAN, Core and 5G-Advanced**
+   IEEE ComSoc Technology Blog（2026年6月16日） | https://techblog.comsoc.org/2026/06/16/3gpp-approves-timelines-for-release-21-which-will-specify-6g-ran-and-5g-advanced/
+   • 3GPPのTSG RAN#112会合（シンガポール開催）で、Release 21の作業タイムラインが正式承認された。
+   • Release 21では6G RANおよび5G-Advancedの技術仕様を策定し、最初の機能凍結（Functional Freeze）を2027年3月、2回目の凍結を2028年6月に予定。
+   • 3GPPは6GをAIネイティブ設計と位置づけており、AI/MLをRelease 21の仕様策定当初から組み込む方針が示されている。
 
 ## 📄 論文・技術文書（IEEE Xplore等）
 
-🔺 **From RAN Control to Agentic Intelligence: Architecture and Vision for Energy Efficient AI-RAN**
-   著者😎：Sabrine Aroua、Alexis I. Aravanis、Ilias Chatzistefanidis、Hamza Abbar、Anh-Khoa Dang、Anastasios Giovanidis、Salah-Eddine El Ayoubi、Stephane Senecal、Martha Vlachou Konchylaki、Navid Nikaein（Ericsson Research / Orange Innovation / EURECOM / BubbleRAN 他）
-   arXiv（2606.21955、IEEE Network Magazine査読中） | https://arxiv.org/pdf/2606.21955
-   • 6GではAI-RAN（通信基盤とAI処理基盤の共用化）が高密度展開と常時AI処理により、RANの消費電力を大幅に増加させると指摘。
-   • 既存のO-RAN（RIC・SMOによるプログラマブル制御）はポリシー駆動が中心で、複数アプリケーション間の適応的な省電力連携には限界があると分析。
-   • LLM駆動のセマンティック・インテント抽象化を用いた「エージェント型AI-RAN」アーキテクチャを提案し、異種ワークロード間の適応オーケストレーション・競合解決・省エネ多目的最適化の実現構想を提示。
+🔺 **GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing**
+   著者😎：Tamerlan Aghayev、Maxime Elkael、Michele Polese、Minh Dat Nguyen、Gabriele Gemmi、Andrea Lacava、Ali Saeizadeh、Reshma Prasad、Paolo Testolina、Angelo Feraudo、Soumendra Nanda、Pedram Johari、Salvatore D'Oro、Tommaso Melodia（Northeastern University）
+   arXiv（2605.27360、2026年6月4日発表） | https://arxiv.org/pdf/2605.27360
+   • Northeastern大学の研究チームが、3GPP仕様に基づくRAN機能の実装・試験・最適化・セキュア化を人手を介さず自動で行う「エージェント型AI」フレームワークGENESISを発表。
+   • 従来は専門エンジニアが数ヶ月を要していた3GPP条項から実機（Over-the-Air）検証済みコードへの実装工程を、数時間で完了できることを実証。
+   • 5G機能実装タスクの比較実験では、GENESISが複数回の独立試行で100%の成功率を達成した一方、既存の汎用コーディングAIエージェント（ベースライン）は一度も動作するコードを生成できなかった。
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **SoftBank Establishes "SB Neo" to Launch Neocloud Business in the U.S., Backed by 10-Gigawatt-Scale Energy and AI Infrastructure**
-   企業名🏢：SoftBank Corp. / SoftBank Group Corp.
-   SoftBank 企業・IR（2026年7月2日） | https://www.softbank.jp/corp/news/press/sbkk/2026/20260702_01/
-   • ソフトバンクとソフトバンクグループが、米国でネオクラウド事業を展開する新会社「SB Neo, Inc.」（出資比率51%：49%）を2026年7月に設立。
-   • グループが開発中の10ギガワット規模のエネルギー・AIインフラを基盤に、大規模AIモデルの学習・推論向け計算資源を米国の大企業・ハイパースケーラー向けに2027年度から提供予定。
-   • 日本で提供中のAIデータセンター向けソフトウエアスタック「Infrinia AI Cloud OS」のノウハウを活用する方針で、AI-RANを含むグループ全体のAIインフラ拡大戦略の一環と位置づけられる。
+🔺 **KDDI, KDDI Research and Global Partners Launch RAN Digital Twin Collaboration for the 6G Era**
+   企業名🏢：KDDI Corporation / KDDI Research, Inc.（NVIDIA、Keysight Technologies、Samsung Research Americaと協業）
+   KDDI News Room（英語版）（2026年6月23日） | https://newsroom.kddi.com/english/news/detail/kddi_nr-1068_4588.html
+   • KDDIとKDDI総合研究所が、NVIDIA・Keysight Technologies・Samsung Research Americaと共同で、6G時代に向けた高精度「RANデジタルツイン」構築の協業を開始すると発表。
+   • NVIDIAのAerial Omniverse Digital Twin（AODT）とKeysightのUE（端末）エミュレーション技術を活用し、KDDIの実網データをもとに仮想空間上でRANを再現する基盤を開発する。
+   • 2028年度末までにスケーラビリティ実証プロトタイプを構築し、2030年度末までにKDDI商用網での性能検証を目指す。複数の自律型AIエージェントによるRAN「What-if」シナリオの安全な検証などへの活用を想定。
 
 ## 🇯🇵 日本語メディア
 
-・ **ソフトバンクが米国にネオクラウドの新会社「SB Neo」を設立**
-   メディア名📰：BUSINESS NETWORK（2026年7月2日）
-   BUSINESS NETWORK | https://businessnetwork.jp/article/35764/
-   • ソフトバンクが米国オハイオ州の「PORTS Technology Campus」を中核に、発電容量とデータセンターを直結させる垂直統合型AIインフラを整備する計画と報道。
-   • SB Neoはハイパースケーラー等へのGPU計算資源提供（ネオクラウド）を担い、2027年度のサービス開始を目指す。
-   • 孫正義氏は「グループを挙げて世界最高水準のAIインフラを展開し、AI革命を推進する」とコメントし、日本国内でもギガワット級AIデータセンター構築を進める方針を表明。
+🔺 **KDDIやNVIDIAら5社、6G時代に向け「デジタルツインRAN」構築へ　仮想空間で通信網を模擬**
+   メディア名📰：ケータイ Watch（2026年6月23日）
+   ケータイ Watch | https://k-tai.watch.impress.co.jp/docs/news/2119381.html
+   • KDDI、KDDI総合研究所、NVIDIA、Keysight Technologies、サムスンの5社が、実際の通信網を仮想空間に再現する「デジタルツインRAN」構築に向けた協業を発表。
+   • AIによるネットワーク最適化・自律運用・新機能評価を、実網に影響を与えることなく安全かつ効率的に検証できる基盤の実現を目指す。
+   • 役割分担はKDDIが商用網データ提供、KDDI総合研究所が電波伝搬予測技術、NVIDIAがデジタルツイン基盤（AODT）、Keysightが端末再現技術、サムスンがvRAN技術を担当する。
 
 ## 📰 業界・一般メディア（英語）
 
-🔺 **Dell'Oro: AI RAN Revenue Forecast: $35B from 2026-to-2030; 3 Types of AI RAN Explained**
-   メディア名📰：IEEE ComSoc Technology Blog（2026年6月30日、Dell'Oro Group調査）
-   IEEE ComSoc | https://techblog.comsoc.org/2026/06/30/delloro-ai-ran-revenue-forecast-35b-from-2026-to-2030-3-types-of-ai-ran-explained/
-   • 調査会社Dell'Oroが、2026～2030年の累積AI RAN市場規模を350億ドルと予測。ただしAI RANが従来型RAN市場全体を拡大させる可能性は低いと指摘。
-   • 短期的にはAI-for-RAN（AIによるRAN最適化）、シングルパーパス型展開、非GPUアーキテクチャ、D-RAN・5G向けが市場の中心になると分析。
-   • GPUを用いたAI-and-RAN（GPU RAN）型は予測期間末までに10億ドル超規模へ成長すると上方修正されたが、依然として市場全体の一部にとどまる見通し。
+🔺 **Nvidia rallies telcos around AI agents at DTW Ignite**
+   メディア名📰：Mobile World Live（2026年6月23日）
+   Mobile World Live | https://www.mobileworldlive.com/nvidia/nvidia-rally-telcos-around-ai-agents-at-dtw-ignite/
+   • NVIDIAがDTW Ignite 2026（コペンハーゲン開催）にて、SoftBank・NTT DATA・KDDI等の通信事業者とともに、タスクベースの自動化から完全自律型ネットワーク運用への移行を支援する「テレコムAIエージェント」技術スタックを実演。
+   • SoftBankはNVIDIA NeMo Safe Synthesizer／NeMo Anonymizerを用いてプライバシー保護型の合成データを生成し、自社の大規模テレコムモデル（LTM）の微調整・専用ネットワークエージェント構築に活用している。
+   • KDDIはNVIDIA・Keysight・Samsung Research Americaと共同で6G向けRANデジタルツイン構築を進めるなど、シミュレーション・エージェントランタイム分野で複数企業が新たな協業を発表した。
 
 ---
 *このDigestはAI RANウォッチャーが自動生成しています。*
