@@ -1,17 +1,18 @@
-# 📡 AI RAN Digest — 2026-07-09
+# 📡 AI RAN Digest — 2026-07-13
 
-収集日時: 2026-07-09 11:06 JST | 新規記事: 1件
-🔴標準化:0　📄論文:0　🏢企業:0　🇯🇵国内:0　📰海外:1
+収集日時: 2026-07-13 13:07 JST | 新規記事: 1件
+🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:0　📰海外:0
 
-> ℹ️ 本日もRAWリスト（digest_raw.md）は0件（最終更新 2026-07-08付）のため、Web検索による補完調査を実施しました。3GPP・O-RAN Alliance・AI-RAN Alliance・IEEE・NVIDIA・T-Mobile・SoftBank・KDDI・楽天モバイル等を対象に調査しましたが、3GPP RANプレナリは6月開催済みで7月分の新規標準化動向はなく、AI-RAN Allianceも次の一区切りは7月31日締切の提案募集のみでした。過去掲載済みの記事（Nokia Amplify Korea 2026、3GPP Release 21タイムライン、O-RAN Release 5/6、GENESIS論文、KDDI RANデジタルツイン、NVIDIA DTW Ignite、SoftBank SB Neo、KDDI・楽天モバイルNEDO採択、Ericsson「AI in RAN」ソフトウェア発表等）との重複を除外した結果、Light Reading誌のRANチップ戦略に関する分析記事1件を新規に確認しました。
+> ℹ️ 本日もRAWリスト（digest_raw.md）は0件（最終更新2026-07-12付）のため、Web検索による補完調査を実施しました。3GPP・O-RAN Alliance・AI-RAN Alliance・IEEE・NVIDIA・T-Mobile・SoftBank等を対象に調査しましたが、3GPPは次の6G関連マイルストーンが9月のRAN#113（マドリード）待ちの状態、O-RANも次期リリース（O-RAN-R006、2027年7月予定）に向けた準備段階で目立った新規動向はありませんでした。Nokia・Orange・NVIDIA連携、NVIDIA-Marvell提携、Samsung・KDDIのAI-RAN実証などは既出（4月〜6月付）のため重複除外し、過去掲載記事との重複がないAI-RAN Allianceラボ関連の企業ニュース1件を新規に確認しました。
 
-## 📰 業界・一般メディア（英語）
+## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-・ **Ericsson Is Starting to Look Like the Only Safe Bet for RAN Chips**
-   Light Reading | https://www.lightreading.com/5g/ericsson-is-starting-to-look-like-the-only-safe-bet-for-ran-chips
-   • Dell'OroとOmdiaの試算によれば、通信事業者のRAN投資額は年間約350億ドルで頭打ちが続いており、NvidiaのGPUを使う「GPU RAN」は2030年時点でも10億ドル規模程度の小さな市場にとどまると予測されている。
-   • Ericssonは無線ユニットやベースバンド向けに自社製ASIC（専用チップ）を採用し高い利益率を維持。Huaweiが欧米で規制され選択肢が限られる中、「安全な選択肢」との評価が強まっている。
-   • Nvidiaは消費電力を抑えた軽量GPUの開発を進めるが、Intelの仮想化RAN向けCPU「Granite Rapids」の採用も伸び悩んでおり、汎用プロセッサ陣営は依然として苦戦している。
+・ **AmpliTech Group's 64T64R Massive MIMO Radio Featured in VIAVI VALOR Lab Demonstrations for AI-RAN Alliance Members**
+   企業名🏢：AmpliTech Group（NASDAQ: AMPG）
+   Stock Titan | https://www.stocktitan.net/news/AMPG/ampli-tech-group-s-64t64r-massive-mimo-radio-featured-in-viavi-valor-vzgj8y16tnmq.html
+   • AmpliTech社のO-RAN CAT B対応64T64R Massive MIMO無線機が、米アリゾナ州チャンドラーのVIAVI Solutions「VALOR」ラボで開催されたAI-RAN Alliance会員向け施設ツアー（約120名参加）のライブデモに、唯一のMassive MIMO無線機として採用された。
+   • VALORはAI-RAN Alliance公認では業界初となるOpen RAN試験施設で、600種類超の自動化テストケース、25×35フィートの電波暗室、GPUインフラを備え、2024年の開所以来2,100回超・377テストケースの試験実績を持つ（稼働率平均75％）。
+   • 同無線機は米ノースイースタン大学のOpen6G OTICやO-RAN ALLIANCE Global PlugFest Spring 2026でも唯一の該当構成機として検証済みであり、複数ベンダーが参加するO-RAN参照環境での独立検証実績を積み重ねている。
 
 ---
 *このDigestはAI RANウォッチャーが自動生成しています。*
