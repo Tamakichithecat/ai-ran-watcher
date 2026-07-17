@@ -1,40 +1,50 @@
-# 📡 AI RAN Digest — 2026-07-17
+# 📡 AI RAN Digest — 2026-07-18
 
-収集日時: 2026-07-17 07:47 JST | 新規記事: 8件
-🔴標準化:0　📄論文:0　🏢企業:6　🇯🇵国内:0　📰海外:2
+収集日時: 2026-07-18 07:38 JST | 新規記事: 10件
+🔴標準化:0　📄論文:0　🏢企業:7　🇯🇵国内:1　📰海外:2
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Nokia AI-RAN claims are ambitious but analysts are skeptical - Fierce Network**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMingFBVV95cUxPa1Q5VFNOSkxYTlNZS2RtaENINnpoMXlCZEFyRFJMNDZXemlVMDZwcjg3VnFNWUxjMkl1WGd3eWJRdUVKeC1tQ1ZKbUZKNjZuUnJEbjZLYURLVVdZalE4bkRDZjRWMUZRWmNTb0ZCZzI4cldySGVEMm1BdUpDUFVPYWZKSlpDOGdrc1FqN0QzbGF4MllHUGdLLVpFTXU4Zw?oc=5
-   Nokia AI-RAN claims are ambitious but analysts are skeptical&nbsp;&nbsp;Fierce Network
+🔺 **Nokia AI RAN – Confidence is growing - Dell'Oro Group**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMia0FVX3lxTE5IRlZiZmladTY3aWcwRlRkanZfeTFFbWZsMm9Rd0xOTXFPWXFXS01VNWduZFl0NElkOGNUbEhSVS1ObUJabmlCcEFkdFZidmlCclhCOGNlWFNUQ0VhYVRRekdtYURLR0N6aVlZ?oc=5
+   Nokia AI RAN – Confidence is growing&nbsp;&nbsp;Dell'Oro Group
 
-🔺 **Nokia Launches Mobile Industry’s “First” Commercial AI-RAN Platform with Nvidia - Inside Towers**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMipAFBVV95cUxPcWllYmxEdVNYUEY0NmVibWxxRXRfdXVxbXltQnlha2VTazdTRjAwQkFSQ1lpbGJ2cThkMDNjSkJxc1dfc1daWTRwX1lZYVhrckItNVN2VS1mNV9nWEJYVWs3WjViY3JmZElhaWFuQ2R1ZHFJS3VBcU1pVVF1MUhpTzlTbjlwWTF3X1ItZVhnOF9aX2hZd3hUTkNMS3lMWU9VUFFrZQ?oc=5
-   Nokia Launches Mobile Industry’s “First” Commercial AI-RAN Platform with Nvidia&nbsp;&nbsp;Inside Towers
+🔺 **Nokia Launches Industry’s First Commercial AI-RAN Platform In Partnership With NVIDIA - Pulse 2.0**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMipwFBVV95cUxPM05vU0gyMzg5U0lBaEVBUlA0QlVyRzhOdk5TQ2tCN0xTTE53eTFic25TMDlWaUh0aTZWS1ludkRiQ1pkbXdENldQNEhDenRzSGg3YmNINkVnemc3T1JHdVRsNE5nRUdlN3EyeU5ER3lJVVZhTVRObERyMU9iUUI0WHBGMEpHSHFoSlMyTG9DS1F0Wm5HOEV5bWFKOU5sMG0xUkp4dWRHZ9IBrAFBVV95cUxPbTdmX3JiNV9BOE53WHd5SVVkd1R2MTl6dW92elNOaVZKXzNPcGh5U1RNbkg1WE1oZkpYWmlLakYwa3ZWdkp4VXdWeUI2T193M3JDYU5rcUxsSklMNUdKckx1em1GRTk2YXdDejJ3NkdhR21NdmYwMmFvY2FnUTJLTThmelNDd3dkRFRuUDktMEtyWE9hbmZjcUxHOXcwZUxrUFQyRmI1RlVkN1Nk?oc=5
+   Nokia Launches Industry’s First Commercial AI-RAN Platform In Partnership With NVIDIA&nbsp;&nbsp;Pulse 2.0
 
-🔺 **Nokia and NVIDIA Launch First GPU-Based AI-RAN, Targeting Double Spectrum Capacity - Tech Times**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMizAFBVV95cUxQQXNfdmdPck1YQ2M2bVZma2tYTkx2YWJlZ3c2UmJXX2U2ZW1wUnBPVURKenJrSHlXUWJUVmtRN3RVcjhGeTZkWEY0VXJhckZZa2tIN0Z5WlhHaDJFbXM4LWlVXzVRckFod1BFMENMV2YzRkhsNmthX3ZIRW1JcDFNRW0tWlNWQkJpTkZXZnlBOFZKUG1ydEZsb0xRNmkzTVN1eTgtR3VKMFoyRXI0ZFlmZ0taM1VWVFJrZ2c5eVhIb2hXTVIyRFlqZFhGWWI?oc=5
-   Nokia and NVIDIA Launch First GPU-Based AI-RAN, Targeting Double Spectrum Capacity&nbsp;&nbsp;Tech Times
+🔺 **NOK Stock Faces Worst Week In 5 Years – But Retail Traders Are Not Giving Up On Nokia’s 'AI RAN Technology' Push - Stocktwits**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiggJBVV95cUxPalRaWDM2Q216VHFBV1MydzRYRmNiNXBZa1dsbThGUUtPZ3dlWTM5SmJvY2hZMVBLYjJvc2kyY3JYcGo1SXlPZktOZm43cHlfYVl5VlNEelV0UmtqeXJLc1EtQUNxVC1fdHFlaVpDeGg5UlJCTXRPejV1SmZOck5tRnhPS3ZuOXhEUGJob29BSGFCLUlMakRIc0hEME15M0RSWEdodTJvcmlxSjEwbVQ0X21GTDRWR2xKSWRBaU52NXh2cG8wNER4V2ZNLTJwMDVjUzNxd2N1YVI5VUtLUkVtcms5NXBBenRISTFsbEZOWVcybDZaQzQxc3hTdGNmOTMxWFE?oc=5
+   NOK Stock Faces Worst Week In 5 Years – But Retail Traders Are Not Giving Up On Nokia’s 'AI RAN Technology' Push&nbsp;&nbsp;Stocktwits
 
-🔺 **When it comes to Nokia’s new AI-RAN, keep your eye on the dApps - The Mobile Network**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2dOUHQtQ2RxanVqeTRWem5IR2FyQzVFWTBSb1VwaXFvejVtWEhwQk1YbXk2NDJnY3BBRE1DNWJla0xROUpYVENNSFZoYXoweHhrWW9odVVTSS1wLVVVdDdkRVktZU8yUEk5WWJOTjM2MUl2emwtbk1reWtJWldwcjRZWllPazZqWk9EM1pCREpWZExBMXNlOEEwc3BhdVdXbEdj?oc=5
-   When it comes to Nokia’s new AI-RAN, keep your eye on the dApps&nbsp;&nbsp;The Mobile Network
+🔺 **From Proof-of-Concept to Commercial Deployment of AI-RAN ~SoftBank's Initiatives to Build Distributed Infrastructure for the AI Era, Including Collaboration with NVIDIA~ | About Us | SoftBank - ソフトバンク**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMicEFVX3lxTE1Ja1BqZmZzcll4SzROMmc0Z3hUWEdlRXhOdUZDbGd6VHl0M1UwSDltbm9WRG1WNW05MWtOczFtQzdhXzU1V05oOUhiT3Q2SHFmbkVLb0lXZjloTDBqc08yTmtnc1NfNzZUTGswRmFCODk?oc=5
+   From Proof-of-Concept to Commercial Deployment of AI-RAN ~SoftBank's Initiatives to Build Distributed Infrastructure for the AI Era, Including Collaboration wit
 
-🔺 **Nvidia outlines Japan AI infrastructure push across AI-RAN, robotics and HPC - Telecompaper**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiugFBVV95cUxOQnBRbmlNZ2JVV0ViN2JBSkpMWE9Sc3RjWTF0WGtUUlhwc2FoTk1tbmV5OFdzSFJzNWlPSG9oY1YtUV9yTWE2Sm9IWnIwLVktdlhYc09SUTlYeGdfY3RERmdZS1l3SFJQV1F4V2lUNTNSS2lIXy13Zk12MUxhNUpLY0ZqSkNKMmtwbUdJTkhseF9zeDI1ZTM3LVl2WWVnWkkxc2JFaHBSc2ljVnRNZUVYcVdVWkhMcm1hNlE?oc=5
-   Nvidia outlines Japan AI infrastructure push across AI-RAN, robotics and HPC&nbsp;&nbsp;Telecompaper
+🔺 **Signing of a Letter of Intent for Collaboration on 6G and AI RAN Related Technologies Forming the Basis of Physical AI Connectivity with NVIDIA Corporation (hereinafter the "LOI") - soumu.go.jp**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUXRUejJpa0J6aUtYNWZINmd2b19FRVo4R2Iwdmw2cjU5Tlh5V1hsVHZEUTE1RVRVaU5iNU1fX19EaGZHSTV3YlJCSExHSG5BVk9HYnl1U09wWFkwd2FZNjNKOUFQelREX2N5NGdVWlhQaVZlazltVWMtSjB3TlpNaDR1Sk54Y0Zv?oc=5
+   Signing of a Letter of Intent for Collaboration on 6G and AI RAN Related Technologies Forming the Basis of Physical AI Connectivity with NVIDIA Corporation (her
 
-🔺 **SK Telecom AI-RAN Pilot Goes Live as Nokia Targets Double Spectrum Capacity - Tech Times**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMixgFBVV95cUxOcGZMcHlyR0xSWWV6R2Iyb1hKck1YT3ltOF9yZkJZREdWbE91dl9LcHBiNkVSbVlEUjVFYlhmejFTajZFaFFGbkFFQU1DTy0xa19IRjdteVNaMmFWSmJPbzVlLXZCaUZoVk5jbmpfamlXR2dYSTk1Yzl1TW02MkJRbXJjRGJzMGpfbFhBSEtYdWhPc3NSOWdrRFhJd2NQTk9UTGVTbzEwdHlrbjQ0NGVoalN0T0RoMHNmakFYbDV6OFRVNWpNblE?oc=5
-   SK Telecom AI-RAN Pilot Goes Live as Nokia Targets Double Spectrum Capacity&nbsp;&nbsp;Tech Times
+🔺 **AmpliTech Group Approved for Membership in the AI-RAN Alliance, the Global Consortium Founded by Leading Technology Companies to Bring Artificial Intelligence to Wireless Networks - The Manila Times**
+   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi7AJBVV95cUxPQURXMnZiRm5FX3pTQXp1WWlfeGZRVUoxOVI4U0FtbS16M1lVYzlTT0NoVTVfYThTM09iR2g3cjkzRDhPTlBNVURZY0d5UzVvaEZLYmN6MF9DTjlyZWVWX21HUVJpWHJYeHhWUEJKQjJwOTkybTdjdVY3VGRkV0JZOUluMW1scUxVUklFa01HVWxhdVhtSzRyMG1oTW5LbGNnMXV4VTZzamV4MjZlaVdVRFdHeEJraGFNSUJLaUtTOUU3RzN2NVh3bVhSUDRtSGd6OVBQMjI4MEFta19ONlhjbFBiXzR2dkkzWm5rZzJFU3lFaXBtMzFYaGZ2RnloRlpVOWhkcXJoUjJYS2IwUkdrMEhkd0oyWmduakxBOC0yWmo1eGZhS2piRFhXNDhSX2w0cElGcTNoUENlYlgwTTJlUl9OVVpka0tVbmQ2MjBCUDdmRDlaWGxkcHJfZGluUGxfbzBFR2tvb2E1aWlv0gHyAkFVX3lxTE9KdldpRk5SUUhPUHo5U1gzTG9aSkdyMDhSUDRNdndnUG05anZvYlhjWmYxLWthNERnSWRHUzBrUmNKb1gtMnpwVWtBeFQ4eUtMcGtqc3dtUFBlUW1SY1JTcWRaRVhYb2VrUzBTbkh6ZXhFTkRqVkliUk9ETHZJU25NV0w0aklkWmZzZEdULThwTjg2alhFdUtvVWNoblFPYXVweGwxWG5Zd21SaG4yTU1aUGlPbXF5ZjhzZmx5MFhrVWdubl9FR181RXlydVcxR0ZoajI5b09EVFRTZlBFRUVRdDBrT21vQ3ZZVWNPSWxQN1dTNFpnb2VwNTRfOWlYTkZZOS1qM082TU9ockFSeERtSndQOXNoM044ZFZKbzBXekNENFdGQWN5TURHQ0lNdDVXRWxSRk5PZ2JYZnRSTVNzVFRORnB2QmxzUXZBLUNEUW4xU1hGMkhoYmg5VkdhLUFBeFhLRFVBSnc0dTZZMEstV2c?oc=5
+   AmpliTech Group Approved for Membership in the AI-RAN Alliance, the Global Consortium Founded by Leading Technology Companies to Bring Artificial Intelligence t
+
+🔺 **AI-RANを実証から商用展開へ ～ソフトバンクが進めるAI時代の分散型インフラ構築～ - ソフトバンク**
+   SoftBank — AI RAN (Google News) | https://news.google.com/rss/articles/CBMibEFVX3lxTE4tWVhCcVdXSmtkWmJHYXI4V2NmdnM5QW9TQmhOS1VFVk9qM0w0djNDS1h4bXk5RDU1RVhrVGZKQ3BDTFRZbHVJYWEzSDAtRWFQUlBvUkpaMGltWmc5UEpFemdsX0FhYXpZWVZ3bw?oc=5
+   AI-RANを実証から商用展開へ ～ソフトバンクが進めるAI時代の分散型インフラ構築～&nbsp;&nbsp;ソフトバンク
+
+## 🇯🇵 日本語メディア
+
+🔺 **みずほFGがAIエージェント3000体構想、銀行業務全体をAI前提で再設計へ**
+   日経クロステック | https://xtech.nikkei.com/atcl/nxt/column/18/00001/11900/
+   みずほフィナンシャルグループがAIエージェントの導入を加速させている。一部業務の自動化にとどまらず、業務プロセス全体をAI前提で再設計する「AIネイティブプロセス」と呼ぶ取り組みに着手。15領域・100業務プロセスで3000体以上のAIエージェントを導入する方針を表明した。
 
 ## 📰 業界・一般メディア（英語）
 
-🔺 **Wednesday (telco diary) | What telcos want – and why they wait**
-   RCR Wireless | https://www.rcrwireless.com/20260715/carriers/telco-diary-what-telcos-want
-   From the newsletter (sign-up if you want it sooner): Nokia’s new AI-RAN platform presents a vision of a future where telcos become part of the AI infrastructure
+🔺 **Red Hat outlines AI-RAN roadmap**
+   RCR Wireless | https://www.rcrwireless.com/20260717/carriers/red-hat-outlines-ai-ran
+   Speaking during RCR Wireless News&#8217; Telco AI Forum, Red Hat&#8217;s Shujaur Mufti said operators are initially focusing on AI for RAN because it delivers m
 
-🔺 **Nokia AI-RAN claims are ambitious but analysts are skeptical**
-   Fierce Wireless | https://www.fierce-network.com/wireless/nokia-unveils-ai-ran-platform-big-promises-spectral-gains
-   Nokia says it’s defining the next era of radio with the industry’s first AI-native RAN platform. Analysts aren’t so sure.
+🔺 **Cohere announces support for AI-RAN powered E3 interface**
+   Fierce Wireless | https://www.fierce-network.com/newswire/cohere-announces-support-ai-ran-powered-e3-interface
+   Cohere says this will enable distributed applications (dApps), such as Cohere’s USM, to integrate more effectively with existing and new base stations, deliveri
