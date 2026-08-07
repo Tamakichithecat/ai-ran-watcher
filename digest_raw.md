@@ -1,14 +1,20 @@
-# 📡 AI RAN Digest — 2026-08-07
+# 📡 AI RAN Digest — 2026-08-08
 
-収集日時: 2026-08-07 10:27 JST | 新規記事: 2件
-🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:0
+収集日時: 2026-08-08 07:24 JST | 新規記事: 3件
+🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:1
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Nvidia seeks China AI-RAN partners to bring GPU computing into 6G networks - digitimes.com**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiigFBVV95cUxPWWlNaENDcTZTaDhOb2tfOTNUbGFxa2NLZm1NSXVPaVNfa1VpU2Z0RmZCdVFTSnZHd0JsUHcyUTE4TDZHamdraHJRbXVIY05hX3owMlBBSzhhaC1pM1RtMDRKeUx2alVJVGRKb0FLemNqU0h0eERiam5wa3E4UzhjaWxDa083SDZBZHc?oc=5
-   Nvidia seeks China AI-RAN partners to bring GPU computing into 6G networks&nbsp;&nbsp;digitimes.com
+🔺 **Ericsson named sole global tech partner in SK Telecom-led AI-RAN pilot - RCR Wireless News**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMifEFVX3lxTE1PYUlZY2xfcjh2SjkzUVkzMHhoNDdnb01LVHk5OS0tVnVGVHljNC0tTVU3MlBIYXZWQXlUWEFYejR1aVVBRUJTZEZ0ZEZZWVROY192NzRJYVJtS2t3R1A3ZXdYQVA5d09WaV9NOG0xWVphWXkwMTR5ZW9mcWU?oc=5
+   Ericsson named sole global tech partner in SK Telecom-led AI-RAN pilot&nbsp;&nbsp;RCR Wireless News
 
-🔺 **NVIDIA Seeks Partnerships in China for 6G AI-RAN Base Station De - GuruFocus**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUlnN21fSUxtSjNxalpjWXlXM0k0OEQ2YXRqeXB4NklxSVNfR05oQ2czcFdkNG1DazBmUzl2ZElaSGlPRUZVWkJ3VVU1UnV2alVRX01HZlRLb0lhYTFRa0lTQ0Y4RzFVX092SFItWWhlWDh0ZzlUald1N2cyRGpSVVp5bnBJRTVpU1hsWHltQkQ3V0dpMnhiRTFVN1M0ejFKbE9JU0diYmRva0Rjb3hmWQ?oc=5
-   NVIDIA Seeks Partnerships in China for 6G AI-RAN Base Station De&nbsp;&nbsp;GuruFocus
+🔺 **Advanced Communication Develops 6G AI-RAN Tech with NVIDIA Suppo - GuruFocus**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMipwFBVV95cUxOTldxQllhMkg0MG54ckx0cDJpYWpvb3JwbHRZNDVmVldSN2xRbTlsNGF0ckxlbUphTXBPZ3hDcWJ4VzAyQWh4N0lVRE5vR3JOTmhMSFRramswbS1RSEktd19KUDVHMHNRTWxaOHAyX0FLT0lPeEdJY3JIUDBPb0k1T1JiX2pGak1GeUdxWlFZRl9QaUlJRWd6TTVRckd6WXlZRDc4bF9sdw?oc=5
+   Advanced Communication Develops 6G AI-RAN Tech with NVIDIA Suppo&nbsp;&nbsp;GuruFocus
+
+## 📰 業界・一般メディア（英語）
+
+🔺 **Ericsson named sole global tech partner in SK Telecom-led AI-RAN pilot**
+   RCR Wireless | https://www.rcrwireless.com/20260807/ai/ericsson-sk-telecom-ai-ran-pilot
+   Ericsson set to deploy AI-RAN at KG Mobility under South Korea&#8217;s AI Highway plan In sum &#8211; what we know: Ericsson&#160;has been named&#160;the sole g
