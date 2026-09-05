@@ -1,10 +1,14 @@
-# 📡 AI RAN Digest — 2026-09-05
+# 📡 AI RAN Digest — 2026-09-06
 
-収集日時: 2026-09-05 08:32 JST | 新規記事: 1件
-🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:0　📰海外:0
+収集日時: 2026-09-06 08:26 JST | 新規記事: 2件
+🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:0
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
+🔺 **Northeastern University Demonstrates First Open-Source Prototype of a Massive MIMO AI-RAN System - Eastern Progress**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiigJBVV95cUxPc0FGb2FhbG5FblRWWEtpdWh5c1MyMElnXzNYY19LYi0zZmdSSWExQVR2RFNNdmNfSUxuR0Rzc1c4SXM0RVRNYUhoZWE2Sld4TlNfS2FkYTJrWXpkY2pMMTgwdl9ITUhXczFocVlCdnhhWlN5V01XVVZrSWRkLXpCYmYxY2tnS1Y3ZkVIRkFRMEthU2VEN3NxMmp2WHhoYXZtaUhpTHNZQTVMN1lIcjhxdk1aR1ozcUZlbzVTQUxtSF8wQnNPQWZ0Sk1YUFdxV3lFN0lrVGR2TkNXZTFmeTBxaFhwUFJTMFpOQnNBd0ZGckMySHJwX3RvUUh4NUtlUFdJbHdUVjNpcGI5Zw?oc=5
+   Northeastern University Demonstrates First Open-Source Prototype of a Massive MIMO AI-RAN System&nbsp;&nbsp;Eastern Progress
+
 🔺 **AI-RAN Business Case 2026: Can AI Cut Mobile Network Costs and Double Spectrum Capacity? - TelecomLead**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUJXaEg3S0tjdXo5YUpWNjJXWUlTVUhOcHViYjVkd0F0MjRKV0p5cGJ2TjBTWks4blI2cmh3MjFyeXhFMTI2aWVBUE9TSGhpdDVyS0xNdkN6bUNUU19fMnJVME92WlJfd1MxelFFWXp5cXVOdGxERUVTcnkteGRKRzAyWjdrRGc5MTZjSEF2QmpNOVpFZDUtbUFoQnFXWXVycHd6MURTVmdTWW9VcXBIQkVxYnZkdHh3cURka2Y4S2tpRmVSbXR6SnVpOU9kMUXSAdcBQVVfeXFMTzJOZjRSMWRiNmNpYlVENTdCS0ZDblVRZTRLLXl0Sm0wYU95TElxYTlPai11RXI4bnpBVGh5bVJBZUtkVW5yYV9NWjV2Y2RlYWdBWVplOFB6ZGtjWkpralZVZDlxMUh5bEpXaDQ3RzVxYkhHR19YWEJEUGlhT0wzN0NuN1ZpWU5vNmxaN2d5LVBaU2R1Vnpzdlk4cllhSDFLS1pFR1g2alVZSkhOWkpwbWx5M0pfQnVqMENvLUVzNDVqS3VpMTE5aEtwRzdGR2R2YnU1WmFPZUk?oc=5
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMk5mNFIxZGI2Y2liVUQ1N0JLRkNuVVFlNEsteXRKbTBhT3lMSXFhOU9qLXVFcjhuekFUaHltUkFlS2RVbnJhX01aNXZjZGVhZ0FZWmU4UHpka2NaSmtqVlVkOXExSHlsSldoNDdHNXFiSEdHX1hYQkRQaWFPTDM3Q243VmlZTm82bFo3Z3ktUFpTZHVWenN2WThyWWFIMUtLWkVHWDZqVVlKSE5aSnBtbHkzSl9CdWowQ28tRXM0NWpLdWkxMTloS3BHN0ZHZHZidTVaYU9lSdIB1wFBVV95cUxPMk5mNFIxZGI2Y2liVUQ1N0JLRkNuVVFlNEsteXRKbTBhT3lMSXFhOU9qLXVFcjhuekFUaHltUkFlS2RVbnJhX01aNXZjZGVhZ0FZWmU4UHpka2NaSmtqVlVkOXExSHlsSldoNDdHNXFiSEdHX1hYQkRQaWFPTDM3Q243VmlZTm82bFo3Z3ktUFpTZHVWenN2WThyWWFIMUtLWkVHWDZqVVlKSE5aSnBtbHkzSl9CdWowQ28tRXM0NWpLdWkxMTloS3BHN0ZHZHZidTVaYU9lSQ?oc=5
    AI-RAN Business Case 2026: Can AI Cut Mobile Network Costs and Double Spectrum Capacity?&nbsp;&nbsp;TelecomLead
