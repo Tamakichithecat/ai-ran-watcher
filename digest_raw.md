@@ -1,14 +1,14 @@
-# 📡 AI RAN Digest — 2026-09-10
+# 📡 AI RAN Digest — 2026-09-11
 
-収集日時: 2026-09-10 08:38 JST | 新規記事: 2件
-🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:0
+収集日時: 2026-09-11 08:32 JST | 新規記事: 2件
+🔴標準化:0　📄論文:0　🏢企業:0　🇯🇵国内:0　📰海外:2
 
-## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
+## 📰 業界・一般メディア（英語）
 
-🔺 **AI-RAN Compute Infrastructure Market Size, Share & Growth 2026-2035 - SNS Insider**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMigwFBVV95cUxNNE9USzFUOFNKbUlFTFdibDN3YVd1amlSTTNWOEg4X1ZtcWtydmZMQVdSdkk2ME5lcE9nSnhEVS1Bd2JSZXo1OG5OTFQzUDlPcC1HQ1h3Y2dYWUJPRHpGLWhQUUYtRFRuNlFGWWdaejdZb1doWUtNa1J5cTVzS0FGcnRZVQ?oc=5
-   AI-RAN Compute Infrastructure Market Size, Share & Growth 2026-2035&nbsp;&nbsp;SNS Insider
+🔺 **Huawei gets lobbying boost from European pals after open RAN fail**
+   Light Reading | https://www.lightreading.com/regulatory-politics/huawei-gets-lobbying-boost-from-european-pals-after-open-ran-fail
+   A new report from Connect Europe urges the European Union not to ban Huawei while acknowledging that open RAN has gone nowhere.
 
-🔺 **AI-Native Open RAN Market Size, Share & Growth 2026-2035 - SNS Insider**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMidEFVX3lxTE1fdGdkc19qeDZDcEhiNnNRQVJDNVZSa0QyeGZUSHNlUHZlcUNqa2VoX0FaMXYtVXQyWEplRU1La0lMbzdYcm1COEF2RTh6UlBZMlIxM2twMUxwTGNVTktUc1pVLXM4UVRLRGZNRnp5RmdHTl9a?oc=5
-   AI-Native Open RAN Market Size, Share & Growth 2026-2035&nbsp;&nbsp;SNS Insider
+🔺 **How secure testing supports open RAN collaboration**
+   Fierce Wireless | https://www.fierce-network.com/sponsored/how-secure-testing-supports-open-ran-collaboration
+   Shared testing can accelerate open RAN, but vendor data and intellectual property must remain protected.
