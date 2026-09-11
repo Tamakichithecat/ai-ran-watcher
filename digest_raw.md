@@ -1,14 +1,10 @@
-# 📡 AI RAN Digest — 2026-09-11
+# 📡 AI RAN Digest — 2026-09-12
 
-収集日時: 2026-09-11 08:32 JST | 新規記事: 2件
-🔴標準化:0　📄論文:0　🏢企業:0　🇯🇵国内:0　📰海外:2
+収集日時: 2026-09-12 08:40 JST | 新規記事: 1件
+🔴標準化:0　📄論文:0　🏢企業:0　🇯🇵国内:1　📰海外:0
 
-## 📰 業界・一般メディア（英語）
+## 🇯🇵 日本語メディア
 
-🔺 **Huawei gets lobbying boost from European pals after open RAN fail**
-   Light Reading | https://www.lightreading.com/regulatory-politics/huawei-gets-lobbying-boost-from-european-pals-after-open-ran-fail
-   A new report from Connect Europe urges the European Union not to ban Huawei while acknowledging that open RAN has gone nowhere.
-
-🔺 **How secure testing supports open RAN collaboration**
-   Fierce Wireless | https://www.fierce-network.com/sponsored/how-secure-testing-supports-open-ran-collaboration
-   Shared testing can accelerate open RAN, but vendor data and intellectual property must remain protected.
+・ **ドコモ、ノキア製最新基地局装置で世界初のマルチベンダー商用運用スタート**
+   ケータイ Watch | https://k-tai.watch.impress.co.jp/docs/news/2140348.html
+   NTTドコモは、ノキアと連携し、オープンRAN仕様に準拠したノキア製の最新型基地局装置の商用運用を9日に開始した。複数ベンダーの無線装置を接続するマルチベンダー構成での商用運用は、ノキア製の同装置として世界初となる。
