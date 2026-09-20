@@ -1,19 +1,22 @@
-# 📡 AI RAN Digest — 2026-09-16
+# 📡 AI RAN Digest — 2026-09-20
 
-収集日時: 2026-09-16 07:16 JST | 新規記事: 2件
-🔴標準化:0　📄論文:0　🏢企業:0　🇯🇵国内:1　📰海外:1
+収集日時: 2026-09-20 17:29 JST | 新規記事: 2件
+🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:1　📰海外:0
+
+## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
+
+🔺 **Nokia accelerates AI-RAN adoption as global operators embrace AI-native network evolution on NVIDIA platforms**
+   企業名🏢：Nokia
+   Nokia Newsroom | https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-adoption-as-global-operators-embrace-ai-native-network-evolution-on-nvidia-platforms/
+   • ノキアは、A1グループ、Chunghwa Telecom、du、e&、Mobily、stc、TPG Telecom、Zain SaudiなどがNVIDIAのAerial RAN ComputerとノキアのAI-RANプラットフォームを用いたPoCやライブトライアルを進めていると発表。北米・欧州・アジア太平洋・中東の広範な地域で導入機運が拡大している。
+   • ノキアのAI-RANプラットフォーム（anyRANソフトウェア＋NVIDIA Aerial RAN Computer）は既にスペクトル効率で20%超の改善を実現しており、2027〜2028年にかけてさらなるソフトウェア主導の効率向上を計画している。
+   • T-Mobile、SoftBank、Indosat Ooredoo Hutchison、NTTドコモなど既発表の事業者とのトライアルも着実に進行中で、5G Advancedから6Gへのソフトウェアアップグレードパスを見据えた展開としている。
 
 ## 🇯🇵 日本語メディア
 
-🔺 **今後利用すべき技術で「AIネイティブ開発」が初登場1位、JISA年次調査**
-   日経クロステック | https://xtech.nikkei.com/atcl/nxt/column/18/00848/00196/
-   • 情報サービス産業協会（JISA）の2026年度「情報技術マップ」調査で、今後利用すべき技術ランキングの1位から5位までをAI関連技術が占め、「AIネイティブ開発」が初登場で首位となった。
-   • AIネイティブ開発はコード生成・レビュー・テスト自動化などを通じて開発効率と品質を高める手法で、生成AIの実務活用が急速に広がっていることを示す。
-
-## 📰 業界・一般メディア（英語）
-
-🔺 **NTT Docomo deploys Nokia's open RAN gear**
-   Light Reading | https://www.lightreading.com/open-ran/ntt-docomo-deploys-nokia-s-multi-vendor-open-ran-gear
-   • NTTドコモが、複数ベンダーの無線機を接続可能なマルチベンダーOpen RAN構成としては世界初となるノキアの最新基地局の商用運用を開始したと発表。
-   • 新基地局はLTEと5Gの両方に対応し、データ処理用のLevanteとPonente両ベースバンドカードを搭載、ノキアの最新Massive MIMO技術によりピーク時の接続性を強化。
-   • O-RAN Alliance準拠のこの基地局は「常総きぬ川花火大会」で実証されており、2025年11月導入済みのノキア製SONソリューションと合わせ、マルチベンダーRAN運用の自動化を進める。
+🔺 **初登場1位は「AIネイティブ開発」　システム開発技術者1340人が選ぶ**
+   メディア名📰：日経クロステック
+   日経クロステック | https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600008/090900228/
+   • 情報サービス産業協会（JISA）の2026年版「情報技術マップ」調査で、システム開発技術者1340人が選ぶ「今後注力すべき技術」の1位から5位までをAI関連技術が占めた。
+   • 初登場ながら1位となったのは「AIネイティブ開発」で、設計・実装・テストの各工程にAIエージェントを組み込む開発手法への関心の高まりを示している。
+   • 通信・RAN分野を含むシステム開発全般で、AI活用を前提とした開発体制へのシフトが今後さらに加速する可能性を示唆する調査結果となった。
