@@ -1,14 +1,14 @@
-# 📡 AI RAN Digest — 2026-09-20
+# 📡 AI RAN Digest — 2026-09-21
 
-収集日時: 2026-09-20 08:45 JST | 新規記事: 2件
+収集日時: 2026-09-21 08:41 JST | 新規記事: 2件
 🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:0
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **AT&T, T-Mobile, Verizon take different roads to AI-RAN - Communications Today**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMilAFBVV95cUxNcTg4bkRpZUp3NVIybDBXYnA1bG85a25hVmFPQ2g0VGNWSG1PeEY2Qks2RGVZc3hHUFVLWEhLRkpwX1RhczFjRVdBVHdoLXFSM2lBUV8yQXdoY2FrcExFRTByYzkyUXJtSXZ4LTVhQ05xcjhDRVVPVjA0QnFRbnJ6TTlWRXRUSF9jVEVQZEZQYjUyUGln?oc=5
-   AT&amp;T, T-Mobile, Verizon take different roads to AI-RAN&nbsp;&nbsp;Communications Today
+🔺 **Nokia Advances AI-RAN Adoption with Global Operator Trials on NVIDIA Platforms - The Fast Mode**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEpSNnRIT1luVlFjZldXREwxYTJjZ2dOZFdSd2VZUDV3T0t2LXNWU0JPLU1ZeTgyc0gxc3A4Tk9lbWNkdFk1X195ZFJsbDNqeVBDaU5yR3FZRlNid3hCWXdhYkdVOU9HQnhRYnB0SC1IS01fNGJEeGpKM1pxMVVKTHNIUU42V2EzclpnSkRqc2ozVGpMbVpmRzFkQmRWRFUxUzRGa09tVnE4Z0RQQ2RZQjBIckRBSWlZYkxwbzRxWmY3My1FWXhkUzBSaGY2Zw?oc=5
+   Nokia Advances AI-RAN Adoption with Global Operator Trials on NVIDIA Platforms&nbsp;&nbsp;The Fast Mode
 
-🔺 **US telcos diverge on AI-RAN GPU deployment strategy: Report - ET Telecom**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcVdVTndNZHY5UHdZamF4VllPSFFOb0hqcjJQc1AzdEFJZXdYNVlEaENmUEN0WnYyM1dCSFdmMmpBOHNfRTdfRmdMSW1DM0VjNW5mMW1USnBfdGQzbDRDNG9BNUFLUkJVVlNxSkNVd210Q09mM2ExMmFVVFJ1bnIzMnRfVGp3aTQ2YnM2NF82V29PR1dqWlRUcWVBZ0ZETFRlMUJkYmtaQjlQempCZU1fWmJPdVZHM0p4UnNWRVpidFdfTFVzS3VjN0d3SVRrSjRWWHfSAdcBQVVfeXFMUGdqTElTQkV5dzBnaERtRFRrMHI3ZHZKUGRvc202M2k1WUV2WnZqN0Nkb2xpNWtYdlBVZDI1Tzh4WHZQaXNMTnppLVJ5SjBFWXE5dVV4RDZibUVCNzhPdnNDTkExQ0ZGb3Y1WFJsdG90ZG9zNjlac0NFMnlwSlFTcGpFcjM1eXdyUkRhdklxNW9FTTJSMVNXekJ5SFVDWEVWVkJtXzQ0R0NnZ3Y3eEMxNUI0YjFFendpRGRxQ09ITm1XTW9Ya1RPcExnNVRudGh5ZG94SU93Mzg?oc=5
-   US telcos diverge on AI-RAN GPU deployment strategy: Report&nbsp;&nbsp;ET Telecom
+🔺 **Nokia AI-RAN trials yield 20% spectral efficiency gain - Telecoms Tech News**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMikwFBVV95cUxOLWVmYlJIRGtETnFRd2NhNFpBVmdLcXhIRm5taWtYXzZPWTQ5c3lhckNNenJZdWxLNzFiWkVSYnZBY3BMOU9SaC03VFFDZFlXN0t0M2RJVmxEX2lyb2FwOW1sdlFJc1laSXB1VGxOdG1kTDdodHRONVEwN01PbGhSSlVOU3ozQXVPZlMzZGxYVU9lYTg?oc=5
+   Nokia AI-RAN trials yield 20% spectral efficiency gain&nbsp;&nbsp;Telecoms Tech News
