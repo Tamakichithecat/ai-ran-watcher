@@ -1,60 +1,46 @@
-# 📡 AI RAN Digest — 2026-09-20
+# 📡 AI RAN Digest — 2026-09-22
 
-収集日時: 2026-09-20 18:15 JST | 新規記事: 7件
-🔴標準化:1　📄論文:1　🏢企業:3　🇯🇵国内:1　📰海外:1
+収集日時: 2026-09-22 08:38 JST | 新規記事: 5件
+🔴標準化:1　📄論文:1　🏢企業:2　🇯🇵国内:0　📰海外:1
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
-🔺 **NGMN Sets Conditions on MRSS Ahead of 3GPP RAN#113 Migration Decision**
-   6G Futures | https://6gfutures.substack.com/p/ngmn-puts-mrss-on-trial-ahead-of
-   • NGMNアライアンスは5G/6G移行方式としてMulti-RAT Spectrum Sharing（MRSS、5Gと6Gが同一キャリアを共用する方式）を引き続きベースラインとしつつ、オーバーヘッドやハードウェア再利用性に関する実証データがまだ不十分と指摘する運用者ガイダンスを公表。
-   • 焦点は3GPP TSG RAN#113会合（9月14〜18日・マドリード）における移行アーキテクチャ決定で、「6Gアンカー型」と「デュアルスタック型」の2方式が候補として絞り込まれている。
-   • 6Gコアが5GC（5Gコア）の拡張か独立した新アーキテクチャかという論点も併せて提起されており、SA WG2でのアーキテクチャ検討（2027年3月期限）に直結する。
+🔺 **Working Group Reports to RAN Plenary #113（Madrid）**
+   3GPP News | https://www.3gpp.org/news-events/3gpp-news/ran113-reports
+   • 3GPP TSG RANの第113回総会（マドリード開催）に合わせ、RAN1〜RAN5の各ワーキンググループがAI/ML関連ワークアイテムの進捗を報告。NR空中インタフェース向けAI/ML拡張（WI）が新規承認され、NG-RAN向けAI/ML Phase3は進捗30%→50%、モビリティ向けAI/ML（NR_AIML_Mob）は50%→65%に前進。
+   • 6G無線（6GR）については、アップリンク符号化（BG3）、コンステレーションシェーピング、高次変調、6GR用同期信号ブロック（SSB）設計などで節目の進捗があったと報告。Multi-RAT Spectrum Sharing（MRSS、5G/6G間の周波数共用方式）の暫定性能評価もRAN1から提示された。
+   • RAN3は6G RANアーキテクチャの上位レイヤ分割（HLS）について、CU-DU分割・CP-UP分離を含む5G方式をベースラインとすることで合意。AI/ML関連ワークアイテムはいずれも2027年3月を目標に作業が継続する。
 
 ## 📄 論文・技術文書（IEEE Xplore等）
 
-🔺 **When RAN Agents Need a Theory of Mind**
-   著者😎：Hatim Chergui, Mehdi Bennis, Mérouane Debbah 他
-   arXiv | https://arxiv.org/abs/2609.01779v1
-   • 6G RANを管理するLLMエージェント同士がやり取りするメッセージは送信側の推論の痕跡に過ぎず、構文的に正しくても幻覚（ハルシネーション）を含み、連鎖的な障害を引き起こし得ると指摘。
-   • エージェント間通信をセルラー層（cellular sheaf）上の「認知チャネル」としてモデル化し、信頼度を連続的に測る「認知SNR」など5つの設計原則を提案。
-   • 1Bパラメータ級のローカル展開型テレコム言語モデルによるシグナリングストーム実験で、隣接エージェント4体中3体が誤って同意する幻覚状態を認知SNRが検出できることを実証。
+🔺 **Taming the Agentic RAN: Stability-Guaranteed Arbitration of Autonomous AI Agents in O-RAN**
+   著者😎：Seyed Bagher Hashemi Natanzi, Bo Tang
+   arXiv | https://arxiv.org/abs/2609.18857
+   • O-RANの制御プレーンでは異なるベンダー製の自律AIエージェント（rApp）が共有無線リソースを個別に制御し始めているが、SLA維持を狙うエージェントと省電力のため利用率最大化を狙うエージェントが競合し、リソース配分が振動する問題を指摘。
+   • 論文はAURA（Arbitrated aUtonomous Resource Agents）という軽量な調停レイヤーを提案。各エージェントの内部ロジックを知らなくても、提案された制御アクションを「実現可能性」「変更間隔」「変化量の閾値」の3条件で仲裁し、SLA関連の変更を優先させる仕組み。
+   • OpenAirInterface／FlexRICを用いたO-RAN実機テストベッドで実測トラフィックにより検証し、リソース配分が安定した動作点に収束することを確認した。
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Nokia accelerates AI-RAN adoption as global operators embrace AI-native network evolution on NVIDIA platforms**
-   企業名🏢：Nokia
-   Nokia Newsroom | https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-adoption-as-global-operators-embrace-ai-native-network-evolution-on-nvidia-platforms/
-   • ノキアは、A1グループ、Chunghwa Telecom、du、e&、Mobily、stc、TPG Telecom、Zain SaudiなどがNVIDIAのAerial RAN ComputerとノキアのAI-RANプラットフォームを用いたPoCやライブトライアルを進めていると発表。北米・欧州・アジア太平洋・中東の広範な地域で導入機運が拡大している。
-   • ノキアのAI-RANプラットフォーム（anyRANソフトウェア＋NVIDIA Aerial RAN Computer）は既にスペクトル効率で20%超の改善を実現しており、2027〜2028年にかけてさらなるソフトウェア主導の効率向上を計画している。
-   • T-Mobile、SoftBank、Indosat Ooredoo Hutchison、NTTドコモなど既発表の事業者とのトライアルも着実に進行中で、5G Advancedから6Gへのソフトウェアアップグレードパスを見据えた展開としている。
+🔺 **AT&T, T-Mobile, Verizon take different roads to AI-RAN**
+   企業🏢：AT&T, T-Mobile, Verizon
+   Communications Today | https://www.communicationstoday.co.in/att-t-mobile-verizon-take-different-roads-to-ai-ran/
+   • 米国大手3社がAI-RANの実装方針で分裂。VerizonはGPUを使わずCPUベース無線機にAI推論を組み込む方式を採用し、仮想化基地局（vRAN）約22,900局、Open RAN対応無線機17万台超を既に展開。
+   • T-MobileはNokia・NVIDIAと連携しGPU中心のAI-RAN構想を推進。米ベルビューにAI-RANイノベーションセンターを設置し、2026年中にNokia製GPU無線機の試作機納入を予定。
+   • AT&Tは高コスト・複雑性を理由にGPU方式へ懐疑的で、Verizonに近い立場。Ericssonと共同でGPUを使わないAIネイティブ・スケジューラの検証も進めている。
 
-🔺 **KDDI・Samsung、7GHz帯下り3.6Gbpsを達成**
-   企業名🏢：KDDI / KDDI総合研究所 / Samsung Research
-   6G Futures（引用元：KDDI Newsroom） | https://newsroom.kddi.com/news/detail/kddi_nr-1143_4690.html
-   • KDDI・KDDI総合研究所・Samsung Researchがソウルの実験施設で7GHz帯屋外実証（8月18〜20日）を実施し、Extreme Massive MIMO（1000素子超のアンテナ、100MHz帯域幅）・8ストリーム構成で単一端末への下り3.6Gbpsを達成。
-   • 1024QAM変調の採用により、同一構成の256QAM時（3.0Gbps）と比べ約20%の速度向上を確認。
-   • 測定地点の95%でSub-6GHz基地局と同等の受信電力を確保しており、KDDIはAI時代の大容量通信需要に対応する「デジタルベルト構想」の一環と位置づけている。
-
-🔺 **AI-RAN Business Case 2026: Can AI Cut Mobile Network Costs and Double Spectrum Capacity?**
-   企業名🏢：NVIDIA
-   TelecomLead（Google News経由） | https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUJXaEg3S0tjdXo5YUpWNjJXWUlTVUhOcHViYjVkd0F0MjRKV0p5cGJ2TjBTWks4blI2cmh3MjFyeXhFMTI2aWVBUE9TSGhpdDVyS0xNdkN6bUNUU19fMnJVME92WlJfd1MxelFFWXp5cXVOdGxERUVTcnkteGRKRzAyWjdrRGc5MTZjSEF2QmpNOVpFZDUtbUFoQnFXWXVycHd6MURTVmdTWW9VcXBIQkVxYnZkdHh3cURka2Y4S2tpRmVSbXR6SnVpOU9kMUXSAdcBQVVfeXFMTzJOZjRSMWRiNmNpYlVENTdCS0ZDblVRZTRLLXl0Sm0wYU95TElxYTlPai11RXI4bnpBVGh5bVJBZUtkVW5yYV9NWjV2Y2RlYWdBWVplOFB6ZGtjWkpralZVZDlxMUh5bEpXaDQ3RzVxYkhHR19YWEJEUGlhT0wzN0NuN1ZpWU5vNmxaN2d5LVBaU2R1Vnpzdlk4cllhSDFLS1pFR1g2alVZSkhOWkpwbWx5M0pfQnVqMENvLUVzNDVqS3VpMTE5aEtwRzdGR2R2YnU1WmFPZUk?oc=5
-   • AI-RANの導入によりモバイルネットワークの運用コスト削減と周波数容量の倍増が実現できるかを分析した2026年版ビジネスケース記事。
-   • NVIDIAのAI-RANプラットフォームを軸に、既存基地局設備へのAI処理統合がもたらす経済的インパクトを検証している。
-
-## 🇯🇵 日本語メディア
-
-🔺 **初登場1位は「AIネイティブ開発」　システム開発技術者1340人が選ぶ**
-   メディア名📰：日経クロステック
-   日経クロステック | https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020600008/090900228/
-   • 情報サービス産業協会（JISA）の2026年版「情報技術マップ」調査で、システム開発技術者1340人が選ぶ「今後注力すべき技術」の1位から5位までをAI関連技術が占めた。
-   • 初登場ながら1位となったのは「AIネイティブ開発」で、設計・実装・テストの各工程にAIエージェントを組み込む開発手法への関心の高まりを示している。
-   • 通信・RAN分野を含むシステム開発全般で、AI活用を前提とした開発体制へのシフトが今後さらに加速する可能性を示唆する調査結果となった。
+🔺 **US telcos diverge on AI-RAN GPU deployment strategy: Report**
+   企業🏢：AT&T, T-Mobile, Verizon
+   ET Telecom (Google News) | https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcVdVTndNZHY5UHdZamF4VllPSFFOb0hqcjJQc1AzdEFJZXdYNVlEaENmUEN0WnYyM1dCSFdmMmpBOHNfRTdfRmdMSW1DM0VjNW5mMW1USnBfdGQzbDRDNG9BNUFLUkJVVlNxSkNVd210Q09mM2ExMmFVVFJ1bnIzMnRfVGp3aTQ2YnM2NF82V29PR1dqWlRUcWVBZ0ZETFRlMUJkYmtaQjlQempCZU1fWmJPdVZHM0p4UnNWRVpidFdfTFVzS3VjN0d3SVRrSjRWWHfSAdcBQVVfeXFMUGdqTElTQkV5dzBnaERtRFRrMHI3ZHZKUGRvc202M2k1WUV2WnZqN0Nkb2xpNWtYdlBVZDI1Tzh4WHZQaXNMTnppLVJ5SjBFWXE5dVV4RDZibUVCNzhPdnNDTkExQ0ZGb3Y1WFJsdG90ZG9zNjlac0NFMnlwSlFTcGpFcjM1eXdyUkRhdklxNW9FTTJSMVNXekJ5SFVDWEVWVkJtXzQ0R0NnZ3Y3eEMxNUI0YjFFendpRGRxQ09ITm1XTW9Ya1RPcExnNVRudGh5ZG94SU93Mzg?oc=5
+   • GPUを無線機内に搭載するか否かで各社の戦略が分岐。T-MobileはGPU活用を志向する一方、Ericssonと共同でGPUを使わないAIネイティブ・スケジューラの大規模実証をロサンゼルス・ニューヨーク・ニュージャージー・ソルトレイクシティ等の約43サイトで実施中。
+   • AT&TはセルサイトへのGPU配備を当面見送り、AI推論は地域データセンター側で実施する方針。2023年のEricssonとの140億ドル規模Open RAN契約を軸に検証を継続。
+   • Verizonは引き続きGPU方式に最も懐疑的な立場を維持している。
 
 ## 📰 業界・一般メディア（英語）
 
-🔺 **AI-Native Telecom Market Poised for Rapid Growth Through 2032 as Intelligent Networks, Automated Infrastructure and Next-Generation Solutions Transform Connectivity**
+・ **AI-Native Telecom Market Poised for Rapid Growth Through 2032**
+   メディア名📰：GlobeNewswire（Research and Markets）
    GlobeNewswire | https://www.globenewswire.com/news-release/2026/09/18/3364521/28124/en/ai-native-telecom-market-poised-for-rapid-growth-through-2032-as-intelligent-networks-automated-infrastructure-and-next-generation-solutions-transform-connectivity.html
-   • AIネイティブ通信インフラ・インテリジェントネットワーク市場は2026年時点で約80.7億米ドル規模と推計され、2032年まで二桁成長が続くとの市場予測レポート。
-   • RAN・コアネットワーク・エッジ・伝送層全体へのAI統合が進み、リアルタイム最適化・予知保全・自己修復ネットワークの実現を後押しする見通し。
-   • NVIDIA、Ericsson、Nokia、Huaweiに加え、Mavenirなど通信特化型ベンダーも市場成長を牽引すると分析している。
+   • 調査会社Research and Marketsが、AIネイティブ通信インフラ・インテリジェントネットワーク市場の分析レポートを公表。市場規模は2026年時点で約80.7億ドルと推計され、2032年まで二桁成長が続くと予測。
+   • AI-RAN、エージェント型AIオーケストレーション、ソブリンAI基盤、NaaS（Network as a Service）が主要な成長領域として挙げられ、無線アクセスネットワークからコア・エッジ・トランスポート層まで全レイヤーでAI活用が進むと分析。
+   • 主要プレイヤーとしてNVIDIA、Huawei、Ericsson、Nokiaに加えMicrosoft・Google・AWS等のクラウド事業者、Mavenir・Subex等の専業ベンダーを列挙。レガシー網との統合コストや人材不足が課題として指摘されている。
