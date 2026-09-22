@@ -1,16 +1,11 @@
-# 📡 AI RAN Digest — 2026-09-22
+# 📡 AI RAN Digest — 2026-09-23
 
-収集日時: 2026-09-22 08:44 JST | 新規記事: 4件
-🔴標準化:1　📄論文:0　🏢企業:2　🇯🇵国内:1　📰海外:0
+収集日時: 2026-09-23 08:00 JST | 新規記事: 2件
+🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:0　📰海外:1
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
-🔺 **Working Group Reports to RAN Plenary #113**
-   3GPP News | https://www.3gpp.org/news-events/3gpp-news/ran113-reports
-   • 2026年9月14〜17日にマドリードで開催されたTSG RAN#113で、RAN1〜RAN5の各作業部会が最新の作業進捗を報告した。
-   • RAN1は6G無線（6GR）の上りリンク符号化・高次変調・SSB設計などの検討を前進させ、NR向けAI/ML空中インターフェース強化のワークアイテムも継続審議中。
-   • RAN2は6Gにおけるスペクトラム集約（FR1-FR2非同一設置、非理想バックホール10ms以下）に技術的な支障がないと結論し、TSG RANへリエゾン文書を提出した。
-   • RAN3は6G RANアーキテクチャの上位層分割（CU-DU分離、CP-UP分離）について、5G方式をベースラインとする方針で合意した。
+該当記事なし（TSG RAN#113 各WG報告は 2026-09-22 版で掲載済み）
 
 ## 📄 論文・技術文書（IEEE Xplore等）
 
@@ -18,31 +13,23 @@
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Nokia Advances AI-RAN Adoption with Global Operator Trials on NVIDIA Platforms**
-   企業🏢：Nokia
-   Nokia Newsroom | https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-adoption-as-global-operators-embrace-ai-native-network-evolution-on-nvidia-platforms/
-   • ノキアは北米・欧州・アジア太平洋・中東の通信事業者がAI-RANを評価段階からラボ・実地試験へ移行させていると発表した。
-   • A1グループ、中華電信、du、e&、Mobily、stc、TPGテレコム、Zainサウジなど複数キャリアがNVIDIA Aerial RAN Computerを用いた実証を推進している。
-   • AI-RANプラットフォームは無線構成で20%超のスペクトル利用効率改善を実現しており、2027・2028年にかけてさらなるソフトウェア主導の効率改善を計画している。
-   • T-Mobile、ソフトバンク、Indosat Ooredoo Hutchisonとの評価やNVIDIAとの協業拡大など、これまでのAI-RANマイルストーンの上に構築された発表である。
-
-🔺 **Nokia AI-RAN trials yield 20% spectral efficiency gain**
-   企業🏢：Nokia
-   Telecoms Tech News | https://www.telecomstechnews.com/news/nokia-ai-ran-trials-yield-spectral-efficiency-gain/
-   • ノキアのAI-RAN試験が、標準的な無線構成に対して20%のスペクトル利用効率向上を確認したと2026年9月16日に発表した。
-   • A1グループ、中華電信、du、e&、Mobily、stc、TPGテレコム、Zainサウジの8キャリアが、ラボ検証段階から実地フィールド試験へ移行した。
-   • 日本のNTTドコモも商用基地局を用いたAI-RAN実地試験プログラムを継続中である。
-   • プラットフォームはノキアのanyRANソフトウェアとNVIDIA Aerial RAN Computerを組み合わせたもので、無線エンジニアリングチームがアルゴリズム最適化による効率改善を検証した。
+・ **AI-RAN Business Case 2026: Can AI Cut Mobile Network Costs and Double Spectrum Capacity?**
+   企業🏢：NVIDIA（関連） / 掲載：TelecomLead
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUJXaEg3S0tjdXo5YUpWNjJXWUlTVUhOcHViYjVkd0F0MjRKV0p5cGJ2TjBTWks4blI2cmh3MjFyeXhFMTI2aWVBUE9TSGhpdDVyS0xNdkN6bUNUU19fMnJVME92WlJfd1MxelFFWXp5cXVOdGxERUVTcnkteGRKRzAyWjdrRGc5MTZjSEF2QmpNOVpFZDUtbUFoQnFXWXVycHd6MURTVmdTWW9VcXBIQkVxYnZkdHh3cURka2Y4S2tpRmVSbXR6SnVpOU9kMUXSAdcBQVVfeXFMTzJOZjRSMWRiNmNpYlVENTdCS0ZDblVRZTRLLXl0Sm0wYU95TElxYTlPai11RXI4bnpBVGh5bVJBZUtkVW5yYV9NWjV2Y2RlYWdBWVplOFB6ZGtjWkpralZVZDlxMUh5bEpXaDQ3RzVxYkhHR19YWEJEUGlhT0wzN0NuN1ZpWU5vNmxaN2d5LVBaU2R1Vnpzdlk4cllhSDFLS1pFR1g2alVZSkhOWkpwbWx5M0pfQnVqMENvLUVzNDVqS3VpMTE5aEtwRzdGR2R2YnU1WmFPZUk?oc=5
+   • TelecomLeadによるAI-RANの事業性（ビジネスケース）に関する解説記事で、AI活用によるモバイルネットワークのOPEX/CAPEX削減効果を論点としている。
+   • AIベースの無線信号処理によって既存周波数の容量（スペクトル利用効率）を最大2倍に高められるか、という業界の主張を検証する内容。
+   • ※Google News経由のリンクのため本文は未取得。要点はタイトル・掲載情報に基づく（企業公式発表ではなく解説記事のためMed評価）。
 
 ## 🇯🇵 日本語メディア
 
-🔺 **世界初、ノキア製最新型基地局装置のマルチベンダー構成による商用運用を開始**
-   メディア名📰：NTTドコモ（報道発表資料）
-   NTTドコモ ニュースリリース | https://www.docomo.ne.jp/info/news_release/2026/09/11_00.html
-   • NTTドコモは2026年9月9日、ノキア製の最新型基地局装置（データ処理用Levante、制御処理用Ponenteを搭載）について、O-RAN ALLIANCE仕様に準拠した異ベンダー無線装置との接続によるマルチベンダー構成での商用運用を世界で初めて開始した。
-   • 従来機に比べ収容可能な無線装置数の拡大と消費電力低減が見込まれ、都市部やイベント会場など通信需要が集中するエリアへの展開を計画している。
-   • 本装置を含むノキアのAirScaleプラットフォームは5G-AdvancedおよびAIネイティブな6Gネットワークへの発展を見据えた設計であり、ドコモとノキアは2026年8月12日締結の覚書に基づき、AI-Centric NetworkやSON・RICなどの自動化ソリューション、Autonomous Networkの実現に向けた取り組みを推進する。
+該当記事なし（ドコモ×ノキア マルチベンダー基地局商用運用は 2026-09-22 版で掲載済み）
 
 ## 📰 業界・一般メディア（英語）
 
-該当記事なし
+🔺 **Orange takes Nokia AI-RAN into live network testing**
+   メディア名📰：RCR Wireless News
+   RCR Wireless News | https://rcrwireless.com/20260922/network-infrastructure/orange-takes-nokia-ai-ran-into-live-network-testing
+   • Orangeは2026年9月22日のIntelligent RAN Forumで、ノキアのAI-RANプラットフォーム（anyRAN＋NVIDIA Aerial）をラボから商用網での実地試験へ移すと表明。小規模に開始し、性能・エネルギー効率・運用影響・TCOを評価してから拡大を判断する。
+   • ノキアの3つの展開形態（既存AirScaleへのプラグイン、スタンドアロンAI-RANノード、COTSサーバによるクラウドネイティブ）をすべて評価対象とし、共通ソフトウェア基盤での共存を重視。
+   • ノキアは試験環境でスペクトル利用効率約20%向上を達成済みで、2027年半ばの商用ローンチ時に50%、2028年に100%超を目標とする。
+   • 当面の用途は干渉・スペクトル管理や無線パラメータ自動設定で、将来はISAC（センシング）・測位・ドローン検知等を想定。確率的なAIを決定論的なミッションクリティカル網に導入するため、「グラスボックス」化とロールバック機能が課題とされた。
