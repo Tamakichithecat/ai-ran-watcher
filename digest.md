@@ -1,11 +1,12 @@
-# 📡 AI RAN Digest — 2026-09-23
 
-収集日時: 2026-09-23 08:00 JST | 新規記事: 2件
+# 📡 AI RAN Digest — 2026-09-25
+
+収集日時: 2026-09-25 11:50 JST | 新規記事: 2件
 🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:0　📰海外:1
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
-該当記事なし（TSG RAN#113 各WG報告は 2026-09-22 版で掲載済み）
+該当記事なし（過去7日以内の新規標準化発表は確認されず）
 
 ## 📄 論文・技術文書（IEEE Xplore等）
 
@@ -13,23 +14,22 @@
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-・ **AI-RAN Business Case 2026: Can AI Cut Mobile Network Costs and Double Spectrum Capacity?**
-   企業🏢：NVIDIA（関連） / 掲載：TelecomLead
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUJXaEg3S0tjdXo5YUpWNjJXWUlTVUhOcHViYjVkd0F0MjRKV0p5cGJ2TjBTWks4blI2cmh3MjFyeXhFMTI2aWVBUE9TSGhpdDVyS0xNdkN6bUNUU19fMnJVME92WlJfd1MxelFFWXp5cXVOdGxERUVTcnkteGRKRzAyWjdrRGc5MTZjSEF2QmpNOVpFZDUtbUFoQnFXWXVycHd6MURTVmdTWW9VcXBIQkVxYnZkdHh3cURka2Y4S2tpRmVSbXR6SnVpOU9kMUXSAdcBQVVfeXFMTzJOZjRSMWRiNmNpYlVENTdCS0ZDblVRZTRLLXl0Sm0wYU95TElxYTlPai11RXI4bnpBVGh5bVJBZUtkVW5yYV9NWjV2Y2RlYWdBWVplOFB6ZGtjWkpralZVZDlxMUh5bEpXaDQ3RzVxYkhHR19YWEJEUGlhT0wzN0NuN1ZpWU5vNmxaN2d5LVBaU2R1Vnpzdlk4cllhSDFLS1pFR1g2alVZSkhOWkpwbWx5M0pfQnVqMENvLUVzNDVqS3VpMTE5aEtwRzdGR2R2YnU1WmFPZUk?oc=5
-   • TelecomLeadによるAI-RANの事業性（ビジネスケース）に関する解説記事で、AI活用によるモバイルネットワークのOPEX/CAPEX削減効果を論点としている。
-   • AIベースの無線信号処理によって既存周波数の容量（スペクトル利用効率）を最大2倍に高められるか、という業界の主張を検証する内容。
-   • ※Google News経由のリンクのため本文は未取得。要点はタイトル・掲載情報に基づく（企業公式発表ではなく解説記事のためMed評価）。
+🔺 **T-Mobile Adds New AI-Powered Intelligence and Resilience to Make Its 5G Network Even Stronger**
+   企業🏢：T-Mobile US
+   T-Mobile Newsroom | https://www.t-mobile.com/news/network/t-mobile-ai-and-resilience-make-5g-network-stronger
+   • T-Mobileが自己組織化ネットワーク（SON）にインテントベースのAI自動化機能「AutoPilot」を追加。障害発生時は周辺基地局が自動でカバレッジギャップを補償し、従来比約50%短い時間でリアルタイムなネットワーク調整を実行できる。
+   • イベント時の需要急増を事前予測して最適化する「Dynamic CX」を全米展開。冬季暴風雪「Fern」ではSONがバックアップ電源を最適制御し、30州以上で通信維持時間を計25万分以上延長、アンテナのチルト等の調整を3万回以上自動実行した。
+   • ハイブリッド発電機の設置で停電時のサイト稼働時間を最大50%延長。2026年は約200件の災害・イベント対応を支援し、衛星回線経由で14万4千件超のメッセージ送受信や、緊急対応者向け優先接続サービス「T-Priority」も提供した。
 
 ## 🇯🇵 日本語メディア
 
-該当記事なし（ドコモ×ノキア マルチベンダー基地局商用運用は 2026-09-22 版で掲載済み）
+該当記事なし
 
 ## 📰 業界・一般メディア（英語）
 
-🔺 **Orange takes Nokia AI-RAN into live network testing**
+🔺 **AI-RAN gets real – Optus claims major gains with Ericsson**
    メディア名📰：RCR Wireless News
-   RCR Wireless News | https://rcrwireless.com/20260922/network-infrastructure/orange-takes-nokia-ai-ran-into-live-network-testing
-   • Orangeは2026年9月22日のIntelligent RAN Forumで、ノキアのAI-RANプラットフォーム（anyRAN＋NVIDIA Aerial）をラボから商用網での実地試験へ移すと表明。小規模に開始し、性能・エネルギー効率・運用影響・TCOを評価してから拡大を判断する。
-   • ノキアの3つの展開形態（既存AirScaleへのプラグイン、スタンドアロンAI-RANノード、COTSサーバによるクラウドネイティブ）をすべて評価対象とし、共通ソフトウェア基盤での共存を重視。
-   • ノキアは試験環境でスペクトル利用効率約20%向上を達成済みで、2027年半ばの商用ローンチ時に50%、2028年に100%超を目標とする。
-   • 当面の用途は干渉・スペクトル管理や無線パラメータ自動設定で、将来はISAC（センシング）・測位・ドローン検知等を想定。確率的なAIを決定論的なミッションクリティカル網に導入するため、「グラスボックス」化とロールバック機能が課題とされた。
+   RCR Wireless News | https://rcrwireless.com/20260924/ai-infrastructure/ai-ran-gets-real-optus-claims-major-field-gains-with-ericsson
+   • Optus・Ericsson・SKTが「Intelligent RAN Forum」（2026年9月22日）でAI-RANの実運用成果を発表。Ericssonの動的リンクアダプテーション機能はソフトウェアのみで既存5G設備に追加でき、スループットを最大20%、周波数利用効率を10〜15%（条件により最大25%）向上させる。
+   • AIによるカバレッジ予測でハンドオーバーの最適セル選択を端末でなくネットワーク側が決定し、通信継続性を改善。基地局故障時にはアンテナのチルト・パン・ゲインをAIが自動調整してカバレッジを補償し、復旧後は自動で元設定に戻す「自己修復」機能も紹介された。
+   • SKTのDongwook Kim博士は、特定ベンダーとの個別PoCがマルチベンダー網に自動的にスケールするわけではないと指摘し、共通ユースケースと検証手法の策定に向けた業界連携の必要性を強調した。
