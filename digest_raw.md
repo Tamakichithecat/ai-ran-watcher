@@ -1,16 +1,20 @@
-# 📡 AI RAN Digest — 2026-10-16
+# 📡 AI RAN Digest — 2026-10-17
 
-収集日時: 2026-10-16 08:57 JST | 新規記事: 2件
-🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:0　📰海外:1
+収集日時: 2026-10-17 09:02 JST | 新規記事: 3件
+🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:1
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **AI-RAN Automation Spending to Reach $1.1 Billion by 2030, says SNS Telecom & IT - The Fast Mode**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb2xzUVVkMG9SRGlUX3pkNnhaQlBXa1VlT3hYdExVSzl6T0NSV2RqeDFBQnRZN0k3TEhpSVBjUmUxOUVNLThRT3VubFBhQmo3YkZycWthSDE2Q0hpTTFOcjk0YXc3T2xZbnA3b0J1TllvZFd2XzhWN25ONUR1b2FPckF4REh6dm9CTk9ySGljeFA1Mk1wU2RsM1o1NXNXX242OXJ6cG9DcnU3MXhoUkZudzUxcXlLVXRVa3RfVFk5WU1rVWtDRVp5T3NTQ2dJZkxuX28wc01wMA?oc=5
-   AI-RAN Automation Spending to Reach $1.1 Billion by 2030, says SNS Telecom & IT&nbsp;&nbsp;The Fast Mode
+🔺 **Ready AI-RAN value in custom ASICs, says Ericsson – as it keeps GPU options open - RCR Wireless News**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMijwFBVV95cUxNcVhGYnUyYjJBRnR0VnA5TzVFZERQaHRVYk05ZmZ2WWpSSEdpOVo3akE2dkJzczJyQkdvdDFrcGtxMHktMHNVOXNyU3k5TDNkdDVnSWl6eGtKZE5WbTZhd3pJT18ydTgyeTU3M3o3dXJpUE8wS1AzNDJUaXBfXzdHUmxyckVNd29xMkY3dUs1TQ?oc=5
+   Ready AI-RAN value in custom ASICs, says Ericsson – as it keeps GPU options open&nbsp;&nbsp;RCR Wireless News
+
+🔺 **Nokia and SoftBank agree to conduct commercial AI-RAN field trial in Japan - Nokia**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYWZXeVVwd0pVOEdxS3FLaW8tQ2lmQnNVVi1CaVhwOGZQYWwyYUdRWjExc1o0akR0NkxyRkJDbDhRdDhHM0w0enE2T2VkRTd2b0Z0LVR0aWpxMXhUdkc1eF8tX1Vodm8xdW5WcEQtOVcxVjZVdlVrQkZYT3BrX0xCR0VRNmJPY19oTTdXZnRFaWdZY3ZjWUcxNFZJLWtEZnBkbUw2cGJFWWlNQQ?oc=5
+   Nokia and SoftBank agree to conduct commercial AI-RAN field trial in Japan&nbsp;&nbsp;Nokia
 
 ## 📰 業界・一般メディア（英語）
 
-🔺 **VIAVI Solutions White Paper: Building the Self-Aware Agentic RAN**
-   RCR Wireless | https://pages.rcrtech.com/white-paper-building-the-self-aware-agentic-ran
-   From RAN Simulation Digital Twins to the Self-Aware, Agentic RAN How VIAVI AI RAN Scenario Generator (AI RSG), App Twin ADK, Application Validation Engine (AVE)
+🔺 **Ready AI-RAN value in custom ASICs, says Ericsson – as it keeps GPU options open**
+   RCR Wireless | https://rcrwireless.com/20261016/ai-infrastructure/ai-ran-value-in-asics-gpus-ericsson
+   Ericsson chief Per Narvinger has defended the firm’s custom silicon strategy for AI RAN, quite robustly, citing immediate opportunities and 10% spectrum-efficie
