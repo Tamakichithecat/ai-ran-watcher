@@ -1,7 +1,7 @@
 # 📡 AI RAN Digest — 2026-10-27
 
-収集日時: 2026-10-27 20:00 JST | 新規記事: 15件
-🔴標準化:0　📄論文:0　🏢企業:11　🇯🇵国内:0　📰海外:4
+収集日時: 2026-10-27 20:30 JST | 新規記事: 16件
+🔴標準化:0　📄論文:0　🏢企業:12　🇯🇵国内:0　📰海外:4
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
@@ -12,6 +12,13 @@
 該当記事なし
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
+
+🔺 **SoftBank Corp. and Nokia agree to conduct AI-RAN field trial on SoftBank's commercial network**
+   企業名🏢：SoftBank / Nokia
+   SoftBank Corp. Press Release (2026-10-20) | https://www.softbank.jp/en/corp/news/press/sbkk/2026/20261020_01/
+   • 2027年にSoftBankの商用ネットワーク上でAI-RANのフィールドトライアルを実施。NokiaのanyRANソフトウェアをSoftBankのAITRASプラットフォーム上で動作させる
+   • AITRAS OrchestratorとNokiaのMantaRay（ネットワーク管理・自動化）を統合し、AIワークロードとRANワークロードの共存を検証
+   • ハードウェアはNVIDIA Aerial RAN Computer MGX 2U Short（Grace CPU / RTX PRO 4500 Blackwell GPU / ConnectX-8）。マルチベンダRAN対応を目指す
 
 🔺 **NVIDIA, Nokia and Telecom Operators Advance AI-RAN and Distributed Intelligence**
    企業名🏢：NVIDIA / Nokia
