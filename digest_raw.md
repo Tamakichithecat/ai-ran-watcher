@@ -1,68 +1,38 @@
-# 📡 AI RAN Digest — 2026-10-27
+# 📡 AI RAN Digest — 2026-10-28
 
-収集日時: 2026-10-27 09:59 JST | 新規記事: 15件
-🔴標準化:0　📄論文:0　🏢企業:11　🇯🇵国内:0　📰海外:4
+収集日時: 2026-10-28 09:49 JST | 新規記事: 8件
+🔴標準化:0　📄論文:0　🏢企業:8　🇯🇵国内:0　📰海外:0
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **NVIDIA, Nokia and Telecom Operators Advance AI-RAN and Distributed Intelligence - The Fast Mode**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMizgFBVV95cUxNX3FramhHTjBQZDFxdUNxZEhUMjFpR1lfSDVNc1VMcGd5WlNyZEVJSVdoUzAxcU1CcFNQV0NvLVlJai10UjkxalBtUFZSbEZSTVBoRFlQT2dyanNkQmNxMUdpd2g2Q0EtSUNvelpDM2ZXRm9Obm5VVHZBWTNieXd2Q0VmRms4R0hwZnpaVkQyZFU1d2R1d3ZQNzhQOFZFTWcteTliUTJPMW5MZDRvVTBOcG1IczlsMzRyYS1CWEViZVE3RW1yV3VqSUFzWUROZw?oc=5
-   NVIDIA, Nokia and Telecom Operators Advance AI-RAN and Distributed Intelligence&nbsp;&nbsp;The Fast Mode
+🔺 **Capacity Global at NVIDIA GTC 2026: Nokia and NVIDIA on AI-RAN’s Next Phase - Capacity Media**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdEYxTV9lNml2UmFfbzRrQmhjalNwOV9PNFNJOXI5c3NnTHdhSVRDVEhzSFZHSjEtQ3pTaVdQUnZDMkVjdkJoUmhFMGwtV1FRMjI3ODhPbURwZGdMRHk5TWwwM3VWRWQ0ZHFuU0VYRGxSZmdXVVQ1bWlldnpQSGZ3Tnpoc19ER3pHRWcwRlVoM3VqcXdPZWZnQ2d2aDJ4el90M3pucDJiX3NEUQ?oc=5
+   Capacity Global at NVIDIA GTC 2026: Nokia and NVIDIA on AI-RAN’s Next Phase&nbsp;&nbsp;Capacity Media
 
-🔺 **BT TO PIONEER LIVE AI-RAN DEPLOYMENT IN THE UK WITH NVIDIA AND NOKIA - BT Group**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMioAFBVV95cUxNZWlMbmNvdXhMaE5Xb3BnWXNYdDFmQmRiVERjRkljX2dDdnA4dDkzM1VtZGFiM2J5QzFRalZCeUtZYWRfcHFLY0NKdk9VanZvR1BreFlyY1RPT1l2YU1qUENSbzl5U3FQdVpnNk82eW1kRmlOUlhpMV9HaWdfY1NOZ0RUaDVLTGF5dHhWZkJ4RW9VNFFkMUQ2QmpYQVk2cTE5?oc=5
-   BT TO PIONEER LIVE AI-RAN DEPLOYMENT IN THE UK WITH NVIDIA AND NOKIA&nbsp;&nbsp;BT Group
+🔺 **'This is a wow moment': T-Mobile has made the world's first AI-RAN call, and it could mean huge changes for the next generation of staying in touch - TechRadar**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMingJBVV95cUxNVm92WXdzdm9JMU9iQTdsVGVLeWhZSFJ4VnVzeHFSaXBfVjFGWmk4TUt4TzNrN3VZMHZKM3NFZXdLRHlNcE02WkNIM1NGcGZ5SllUOUxwaGx3RkZJYnZrSkhwMGZQNVpmNkt1cUhzekF0blZ6ZG03dGFaTlJWN3NDMi11NVdTcUwwdGJDSlZoUmd3Y21fNWNCcWZkcWM5U01oWmNGaTFBOEZraHZWVC1GZGVvZ2ItMHlzWVFMandtTnRpS1E0NjdHRVpnc2dYS2p4TzRGRWo5N1NnRExXREZsaC1nVFZQT2M0R1luSXZ4TlZsaTNqTkhHbHZTWVVObzlmV1NEOVBFMXRTVHAzTk52RHl6Yi13RXFEdnRUSjNR?oc=5
+   'This is a wow moment': T-Mobile has made the world's first AI-RAN call, and it could mean huge changes for the next generation of staying in touch&nbsp;&nbsp;T
 
-🔺 **Bullish Nvidia proclaims AI-RAN work with Nokia as EMEA telcos pile in (and AI markets grow twitchy) - RCR Wireless News**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMixAFBVV95cUxNSXc3Ylc2bF9mbm82MXA1VFBrM2d0YkM5dlN4dUFwaXRwR3Z4NnRSblcxZWgwUEVibTByLTR4eHQ1S2dCVkgwZDhnWl8yMkh1THdqZkp4Z2pSTjJvdGMwZHd1eTNTRDZJTlJNWlFzbVpXb0M2dy1reXRZLVU1bWl2VGkwQ2lWYVdWVUFHQUFqTURkZHlldEthRHNQMHVsbXhJWm5GZm5LVXJvS19hcDRudnVFUVpZNG1rT2FkMWFQcnJVcnlh?oc=5
-   Bullish Nvidia proclaims AI-RAN work with Nokia as EMEA telcos pile in (and AI markets grow twitchy)&nbsp;&nbsp;RCR Wireless News
+🔺 **Deutsche Telekom and Nokia advance commercial AI-RAN with measurable radio performance gains on NVIDIA AI Aerial - Deutsche Telekom**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMimAFBVV95cUxObEYtUWt0Qy1sdk9OUXV2WEVadVZUWmZNVHc5d3QyamUwYWRXbjJramlRZzE5eXh4ZF9KV0FTUnpRY0RsUm5NUE9YU2lsRFFnOUR0Ukc3bVBsZVI0eDRvdFNiU2ZFN01USVJBb2s4VC12b1NNVWFXMG5JZ0NfQmp3NS1NeWE4STdKNHFabFVVS1U3bmNnZkZQdg?oc=5
+   Deutsche Telekom and Nokia advance commercial AI-RAN with measurable radio performance gains on NVIDIA AI Aerial&nbsp;&nbsp;Deutsche Telekom
 
-🔺 **Nokia badly needs big AI-RAN deals – Musk would be a great start - Light Reading**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMimgFBVV95cUxPRkNRa0xwZEh6T2V3NnNHUXN0bmU2QUtrQkwydTAwWUFsczh5RzdCZDJmcUgzVzVsRG8wU1pnT0FSYzJXUGFMbVZoYlJXbnVsdEM5bVFNNmZyTUc3N2JQcGxWaUpLMnd2ako1SWJpTjM1T2ZYMFpqUEF0OHlrV0NObHA4NkV2TDRVSXlPRWJLaVBZUkRTTmNxaGpB?oc=5
-   Nokia badly needs big AI-RAN deals – Musk would be a great start&nbsp;&nbsp;Light Reading
+🔺 **Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA - Cyprus Shipping News**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiiwJBVV95cUxOOEQyaHRRa0NUQVZDLVJQZXVJUkVjTmJDaFhnR2QzQ2x2TXJfR3E3bk1QUnp5cFNGLUhRSUt2M2ZySVQwc01GTkwxckFsNzJNZ3V0X25BTzlZcHJiRVJxODU1ZWxqbE4zMUx3U3lOR3pHcmdMRzYzVDZBM3JXa0ZCbDhoY21lSUJ0ZkdMVl95ajJXaE1nWnRfUVZobG9aOUtqYmZTcTBhSzQ4Q2NyUzFHQmpBV00yV253NTNXZzZ4Ukg1aG45ck1RSnY1MWNPSFVPR2VGMW9jZWE5UFNBejhwMU1xOVE0UDZvZXAzbW9EcVJvZTBfalpNTVYtd3FYakV1MUNOTjVCeXJXTE0?oc=5
+   Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA&nbsp;&nbsp;Cyprus Ship
 
-🔺 **Weekly Recap: Q3 profit decline and AI RAN tests with Nokia and NVIDIA - TradingView**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiywFBVV95cUxNTmhWSno4UktONnIxbzI3cU5xU2ZSN0JsdWQ3RmlUNzFMX1ByaFhUWktiRTVKNEQ0cmFkUHd3blR3eVJOUGZCTmczX0tsYlhqZlRvNF9rRHpFa1V1bmx1N1dvNDF3aTduOWRNOTFQemJWVVlQSFpUc2FsMXI3NWF0RUZrajZkaHQ0a080WlV5aUpwenpUcUJEdjBreF80eWx3b2RUaWpCZ1FHczM0MFZJNUFzd0ZuUG04UVEyNVpYRkdkUkxjMDc0dGNHcw?oc=5
-   Weekly Recap: Q3 profit decline and AI RAN tests with Nokia and NVIDIA&nbsp;&nbsp;TradingView
+🔺 **T-Mobile completes world's first AI-RAN call on commercial 5G network - 디지털투데이**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMitAFBVV95cUxOS1lLTzlzMjhGWk9kSmVETjBVWkRKaGFuSG5LUXZGWjVSZVhtZjZHeVpvbUNhVVFrcWVyMEVxZEZMWHgtWTJ3ZlNiRVpwc0hMTkUzd2tMQ3RZNU13N1h1NklRR1NsbHNVc2tKVHpvZWw0N3VXNllLMXVJZzMxdkdzdnpqajE2YUYxLVM5a1VOVkFEWWM1b21kQlkwQnNGNlltREkwalBDcU5ReVh4N2cwMGRhcjc?oc=5
+   T-Mobile completes world's first AI-RAN call on commercial 5G network&nbsp;&nbsp;디지털투데이
 
-🔺 **O2 and Nokia put AI-RAN through its paces in London - Telecoms**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMihgFBVV95cUxPN0dTaHBwVkE0dmxPd0pwTV80Zm1qVEdXWVhRa0pvYUdqakNDMUJRU2UxSmlSR0kxdFJnTnVwSElMUndQZmFDX3lfak9rcW5Kc1FJNjQtdkRYZ2JnTUNnamprcF9NNWhEM0I1Y0hmWUdXT1VPWHNEQ3ZxNHVYbVZZTTNONEI3UQ?oc=5
-   O2 and Nokia put AI-RAN through its paces in London&nbsp;&nbsp;Telecoms
+🔺 **T-Mobile completes first AI-RAN call on commercial network - Investing.com**
+   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm9vYVlWZEE4M0xvTlkyRWJ5eVdPaVFaUUM4S2JmMGtjZ01QcFBWSGNRS2xLRENNNVd4VDBQSGpxNHZKVFNwbDV4OUJxZVZlS0JxSmRzd0UzeUNVVVVsTFhUWEpMNXpyejU4THNnSlg4NnBScWlsYlgzd2NMZnh6X2dBTWIwVDVmbUU3dVoxMXRUZ3Q2dDMwcDNVMmlEX2FESEJLOUV4TUU4QnhNRDF0QkRJTQ?oc=5
+   T-Mobile completes first AI-RAN call on commercial network&nbsp;&nbsp;Investing.com
 
-🔺 **The week in telecom: European telcos take on satellite market, Nvidia rekindles AI RAN hopes - Telecompaper**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi1gFBVV95cUxPODhJa0ZFVlgyNWJqWEtkQ3VReUxMOThldktZM3JMQmdROF9QUE5ybzU4a1g0QlFsejBMUW84SzlTMDJ5OFFDOHVySFZoQkVQOXFrWXk0WnJicHZTd0t1UFNwRFZqVzlxNTFrZU1uQTRacVF0cjI5OUJSTHo3VGkwUHJfY00tSXhUV29YRnc2M3ZPakFwNHZZZnQ3ZDhER3k3OGxoQjZGMGFDa1Vub3VkWFA3UnJjb1RBdHVzanBUX19jRGlPdUpENGZLUTlNMFRSWmdFNnhn?oc=5
-   The week in telecom: European telcos take on satellite market, Nvidia rekindles AI RAN hopes&nbsp;&nbsp;Telecompaper
+🔺 **NOK Stock Rebounds As Q3 Beat Fuels AI-RAN Hype - Timothy Sykes**
+   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMihAFBVV95cUxPRUZGa0lkTllkYm5SaFBTY2lqRnZ2djRlOWx3ZHZjQTd3MFVfUXVzY3dQN1E0Vmk1YnlCUTVyeUJrZXgzWkROTFNjYzk2X1ZZMVF6c0VWbEZMNmZPUXRoTXdCRTNnMDAwLTJZaUl1N1M4Y2RBMnpCTEx3eENsNWUyUHdKVF8?oc=5
+   NOK Stock Rebounds As Q3 Beat Fuels AI-RAN Hype&nbsp;&nbsp;Timothy Sykes
 
-🔺 **O2, Nokia complete AI RAN deployment at O2’s Giga Site in London Paddington - Data Center Dynamics**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVENiWHp0RDBFWGVsRWpaOXpQSFNOenY3QlgxNFZaQ3g2NzhlMk9RRnVBVDdkbm1VTGxBX3Ewd3FCLVNaVXlyaWNVUTZnOTVCN3VSQ0hpeE1Fc2t0S1VEVkxDTEtnVjNNQkFkV2Q1bDh2UnNHTnV5RFB6d1htUDM5WXc4blNIRGUxdnJGV2pDN3oxNldVc0tMYnJRUV9fWFhUcHJJdGhwcnNaOUU0T0lla3RNVTQ3U3cx?oc=5
-   O2, Nokia complete AI RAN deployment at O2’s Giga Site in London Paddington&nbsp;&nbsp;Data Center Dynamics
-
-🔺 **NOK Stock Drops After Earnings Beat As AI-RAN Bets Grow - Timothy Sykes**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0lZTFFmZ2plVDIteGZ1dmJmX0tQdWxoRXhqYkxqSGNraXB4dHJfazdrVS1IV3FuREhTdVlfTDFscDRSdnBsRHZNNlJ2dmoyY3ZodWU5ME4tRDFMMjktUDhwLV9OTWVab3U3NjJTR09paldhSGx5ZG92MGp1NjBjOEsyekV4cTl1ZllHUQ?oc=5
-   NOK Stock Drops After Earnings Beat As AI-RAN Bets Grow&nbsp;&nbsp;Timothy Sykes
-
-🔺 **NOK Stock Rebounds As Q3 Beat Fuels AI-RAN Hype - www.timothysykes.com**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiigFBVV95cUxOWURSOHZINkVsWG1CYWVpR2dfS2JhLXZmeUE4VkxtbHRwOGNPM0c5STA3ajloTGxXXzJkWlhtOTJVYkJJc3B2SmpKdzR1MndjTkdzcFFtTkZwUDlyNV9nUlBtZml3NGZJbWpROUJydW03emo0YVllMmM3Y0llTTNjZ2tXTTJjdjhGNWc?oc=5
-   NOK Stock Rebounds As Q3 Beat Fuels AI-RAN Hype&nbsp;&nbsp;www.timothysykes.com
-
-🔺 **NOK Stock Drops After Earnings Beat As AI-RAN Story Builds - StocksToTrade**
-   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWHNZbHZRb3dNVnFxT195Xy1lMmZpdjRiTnMxdE9DaW13dV9abE5la1VPU1hUNXV6Wi1palNpeFlWM0gwSXAzNkZEdmlYZlgwd2lJNXVfeG81RzVTUzNobjEyNmY3NmZlaWtLVHU0ejhjZkdYWkgwdm1GMXFodnEwQ3Q3QjNvMVNM?oc=5
-   NOK Stock Drops After Earnings Beat As AI-RAN Story Builds&nbsp;&nbsp;StocksToTrade
-
-## 📰 業界・一般メディア（英語）
-
-🔺 **Elisa says mobile recovery continues at moderate pace as 5G and AI-RAN advance**
-   RCR Wireless | https://rcrwireless.com/20261026/5g/elisa-mobile-5g
-   Elisa recently ran what it claims to be Europe’s first voice, mobile data, and video analytics simultaneously on the same AI-RAN platform over Elisa’s 5G Advanc
-
-🔺 **Bullish Nvidia proclaims AI-RAN work with Nokia as EMEA telcos pile in (and AI markets grow twitchy)**
-   RCR Wireless | https://rcrwireless.com/20261026/network-infrastructure/bullish-nvidia-proclaims-ai-ran-work-with-nokia-as-emea-telcos-pile-in
-   Nvidia and Nokia (and a rush of operators) have announced progress with AI-RAN – a year to the day practically after Nvidia pumped a billion into the Finnish fi
-
-🔺 **Eurobites: KPN plays the 'sovereign' card on email service**
-   Light Reading | https://www.lightreading.com/security/eurobites-kpn-plays-the-sovereign-card-on-email-service
-   Also in today's EMEA regional roundup: O2, Nokia test AI-RAN in London; Ofcom counts the customer complaints; DNA climbs aboard the 6G-Rocket.
-
-🔺 **Nokia badly needs big AI-RAN deals – Musk would be a great start**
-   Light Reading | https://www.lightreading.com/5g/nokia-badly-needs-big-ai-ran-deals-musk-would-be-a-great-start
-   The AI-RAN products being developed by Nokia and Nvidia could be a natural fit for Starlink if it is preparing to build a terrestrial mobile network.
+🔺 **Nokia's Five-Year India Engineering Pact Lands Alongside a Wave of AI-RAN Alliances - ad-hoc-news.de**
+   T-Mobile — AI RAN (Google News) | https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVXVYTEhSdXpFSnAxWTIzNUoteHpYbWdGQ0VxY0ZjTFJrMnNTN1NILXhhcEJ2aHloREN6dDVYR2NDb0hCR2hFZDZFdnNKeHR3enFxRHI2X0RZblJkbE1vdkJDQzF4WDBPa2VFYjkza2Y5dTEyUVJHd3hxSl9YRWt2N2F2czVxZGZ4dUZZWG1MLXlfWGdVMlF2NUcxUzRoaDhUSFhaU2RqSzZxZExjaTNTckdoNkZ5QW5Dc3VOQ2FIdXNLdTNfcWFsM01oT1FZYzM0LUV2NmozUEQyOHJLaTlFM2J6UHhwOHNULWpr?oc=5
+   Nokia's Five-Year India Engineering Pact Lands Alongside a Wave of AI-RAN Alliances&nbsp;&nbsp;ad-hoc-news.de
