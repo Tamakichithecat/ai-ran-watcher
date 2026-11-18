@@ -1,10 +1,24 @@
-# 📡 AI RAN Digest — 2026-11-17
+# 📡 AI RAN Digest — 2026-11-18
 
-収集日時: 2026-11-17 13:14 JST | 新規記事: 1件
-🔴標準化:0　📄論文:1　🏢企業:0　🇯🇵国内:0　📰海外:0
+収集日時: 2026-11-18 12:13 JST | 新規記事: 4件
+🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:0　📰海外:3
 
-## 📄 論文・技術文書（IEEE Xplore等）
+## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Series Editorial: Integrated Sensing and Communications**
-   IEEE Communications Magazine | http://ieeexplore.ieee.org/document/11793541
-   We are delighted to present a new issue of the IEEE Communications Magazine Series on integrated sensing and communications (ISAC). As research moves from estab
+🔺 **Vodafone is sold on AI-RAN but not yet on need for GPUs - Light Reading**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMikAFBVV95cUxQdnVWVndnRVMwU09RZ3NYbXZjME04d1I1V3dLSUR1QzViY3BEWTNJQ3VLZC0zVHJFbmNxR1RKaF9tUElJSE5KUkxVWXc1VFNOM192RjRPemw5cXJUTm5kcTZtaFF6dFRFZnZ1QUk3UlZMdkdIUlpEYVg0azVLTDFDem1NQ05aY1JxNE9wZDdBdWg?oc=5
+   Vodafone is sold on AI-RAN but not yet on need for GPUs&nbsp;&nbsp;Light Reading
+
+## 📰 業界・一般メディア（英語）
+
+🔺 **The private 5G case is good, says BASF – and better with AI**
+   RCR Wireless | https://rcrwireless.com/20261117/private-5g/private-5g-case-is-good-says-basf-and-better-with-ai
+   BASF says AI is accelerating private 5G adoption, not justifying it – while its existing edge infrastructure makes AI-RAN a poor fit. Its experience challenges 
+
+🔺 **Vodafone is sold on AI-RAN but not yet on need for GPUs**
+   Light Reading | https://www.lightreading.com/5g/vodafone-is-sold-on-ai-ran-but-not-yet-on-need-for-gpus
+   Vodafone is investigating the benefits of different network chips for AI-RAN at a Malaga facility, the company's head of RAN evolution tells an Omdia event.
+
+🔺 **Nokia: Nvidia partnership ‘continues as planned’ after Huang exit**
+   Fierce Wireless | https://www.fierce-network.com/wireless/nokia-nvidia-partnership-continues-planned-after-huang-exit
+   Nokia says its Nvidia partnership “continues as planned” after Jensen Huang's exit. Analysts weigh the near-term impact on AI-RAN and the long-term risks.
