@@ -1,24 +1,28 @@
-# 📡 AI RAN Digest — 2026-11-24
+# 📡 AI RAN Digest — 2026-11-25
 
-収集日時: 2026-11-24 14:40 JST | 新規記事: 4件
-🔴標準化:0　📄論文:0　🏢企業:3　🇯🇵国内:0　📰海外:1
+収集日時: 2026-11-25 13:40 JST | 新規記事: 5件
+🔴標準化:0　📄論文:0　🏢企業:2　🇯🇵国内:0　📰海外:3
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-🔺 **Nokia tie-up with Nvidia on AI-RAN gets warning from Orange CTO - Light Reading**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMimwFBVV95cUxNLUM0ZUw1RGdFcU1sVmplbV8zR0x1YWl5dkhYa0wwUXowZGhMT1k5VXZDTkQ5TXlxMTRZNGhLUGRmcGpoX2FWNFJ4dXRyZXV0RllFSjZOVWJPZC1Zb2RUOFVaV3lHM0ZCcEF6R0lYVzBYODVLOWVXQ1NYOHZJc2o4Vk9zeU1IQ3RIUFpZcjltRWs2RENYQTRrMm0xcw?oc=5
-   Nokia tie-up with Nvidia on AI-RAN gets warning from Orange CTO&nbsp;&nbsp;Light Reading
+🔺 **Nokia restates AI-RAN target: 100% spectral-efficiency gains by 2028 - RCR Wireless**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMid0FVX3lxTE1XMVBZcml5bkE0XzF2YkRYZnQzWGh2ZDVLQmVfRWdQRFFNVHpEamRNS2hNZ2c5aUxLWjJjQzFGSERTTkJrVDVzSmU2OXdNYlgxeUN2a2E3NlZqMktYcFpTVmJWaDdHdkFfbXdjcXZJcGtYR2JXdEtj?oc=5
+   Nokia restates AI-RAN target: 100% spectral-efficiency gains by 2028&nbsp;&nbsp;RCR Wireless
 
-🔺 **VodafoneThree preps AI-RAN trials with Nokia, Nvidia - TelecomTV**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMimwFBVV95cUxOTFVsLVJReTE3ZzVqdWpuNE1BbUtoYm9tcnAzeDNqRlRLRlFvWjk5d24wQUlJb3p0Sy1EaFpKcUJVX1VaVFEzQ1UxcUV1VU0tR1NCelhvUllqUWd5aEk0UDVycGJSM3czQnVPRUNqbTlscFdJU3RTbndLZEotNVliU2JCU0JOR0ltSUtIYVBDaGNVZWJQNG56aFV6SdIBoAFBVV95cUxQdHhUczdleDUtY21rLTNjdHpEYUlXc1FrRXQtekZqSWxQOUIyNUtzbk9TMnFxeUdYelRlOVNfMEZMTFF6OXZ5ejM3Y3VWZHQyWUE0WVZJXzZIMkN5QlZYOUp5X3EyVDdMazV5c2xvZlFJenBWS3dSU2laekE4ZDVBR0xxZUZqZlltSFUyaEwwemc1V28xZlBCalRmU1lXMXBs?oc=5
-   VodafoneThree preps AI-RAN trials with Nokia, Nvidia&nbsp;&nbsp;TelecomTV
-
-🔺 **T-Mobile’s AI-RAN Call Pulls In 3 More Carriers [2026] - shattered.io**
-   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMickFVX3lxTFB6OThlWkZfeXNqa2lLc19oTkxMbnk2elhNNTBqQ2FrM2E2Vm5PSzk3cG5KTzFsYzBNTmZmaDlXaVN4dXBTaWYwa2h3N0JUYnRPMkEzYUprX3pOLUpna1oyenRMN1RmcmdpVEg2YlpQVDRUdw?oc=5
-   T-Mobile’s AI-RAN Call Pulls In 3 More Carriers [2026]&nbsp;&nbsp;shattered.io
+🔺 **T-Mobile pushes ahead with AI-RAN toward 6G - Light Reading**
+   NVIDIA — AI RAN (Google News) | https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFRpZW1kUllMOXVIcUlRcjJaMUVEQ1pnZjhaR3cyR01DbWgxX2FJMzNjOWN6V3EyNFY0UlliX0FHX3lmMU9Fc1BiZVJzRTIydE9xUVFGYVlmU3R0MnpLVU5iNHNjTzdsVE8xOE9MMFhJMUZWLXhwZzFiZHU1RldzMHBwWmQxaWJtVE1iSTVuNThkcUV1ZS00?oc=5
+   T-Mobile pushes ahead with AI-RAN toward 6G&nbsp;&nbsp;Light Reading
 
 ## 📰 業界・一般メディア（英語）
 
-🔺 **Nokia tie-up with Nvidia on AI-RAN gets warning from Orange CTO**
-   Light Reading | https://www.lightreading.com/5g/nokia-tie-up-with-nvidia-on-ai-ran-gets-warning-from-orange-cto
-   Orange CTO Bruno Zerbib says he must avoid a 'risky architecture change' for 'zero benefits' in deploying Nokia for AI-RAN, but he's not picking sides yet.
+🔺 **Nokia restates AI-RAN target: 100% spectral-efficiency gains by 2028**
+   RCR Wireless | https://rcrwireless.com/20261124/network-infrastructure/nokia-ai-ran
+   Speaking at the Morgan Stanley European Technology, Media and Telecom Conference, Nokia&#8217;s chief financial officer Marco Wirén said the company had already
+
+🔺 **Nvidia's CEO Jensen Huang is back after a presidential assist. Telcos, take note**
+   Light Reading | https://www.lightreading.com/ai-machine-learning/nvidia-s-ceo-jensen-huang-is-back-after-a-presidential-assist-telcos-take-note
+   What a sordid affair: Telcos fear Nvidia's grip on AI RAN and what may happen if its money stops flowing. Jensen Huang's return as Nvidia's CEO stokes both of t
+
+🔺 **T-Mobile pushes ahead with AI-RAN toward 6G**
+   Light Reading | https://www.lightreading.com/ai-machine-learning/t-mobile-pushes-ahead-with-ai-ran-toward-6g
+   T-Mobile plans to share a new AI-RAN development before end of the year as it continues to test Nvidia's GPUs with Nokia and AI in the RAN from Ericsson.
