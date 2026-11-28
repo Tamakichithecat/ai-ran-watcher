@@ -1,9 +1,9 @@
-# 📡 AI RAN Digest — 2026-11-15
+# 📡 AI RAN Digest — 2026-11-28
 
-収集日時: 2026-11-16 07:20 JST | 新規記事: 2件
-🔴標準化:0　📄論文:0　🏢企業:0　🇯🇵国内:0　📰海外:2
+収集日時: 2026-11-28 22:33 JST | 新規記事: 4件
+🔴標準化:0　📄論文:0　🏢企業:1　🇯🇵国内:0　📰海外:3
 
-※ RAWリスト（digest_raw.md）は0件だったため、Web検索による補完のみで作成（対象期間: 2026-11-08〜11-15）。
+※ RAWリスト1件 + Web検索による補完3件（対象期間: 2026-11-21〜11-28）。期間外（AI-RAN Alliance ソウル総会 11/11-13、arXiv 2611.08739 など）は除外。
 
 ## 🔴 標準化動向（3GPP / O-RAN / AI RAN Alliance / ITU / ETSI）
 
@@ -15,7 +15,12 @@
 
 ## 🏢 企業プレスリリース（NVIDIA / T-Mobile / SoftBank）
 
-該当記事なし
+・ **Operator survey: AI RAN delivers immediate operational value**
+   企業名🏢：T-Mobile（RAW収集キーワード）/ 掲載: Light Reading
+   Light Reading（Google News経由） | https://news.google.com/rss/articles/CBMirAFBVV95cUxNdERlYnBTelN5cEZkTDRsYlVFZ0dSaGpwNE5vVTlNaUtKXy1zWWZ1YnVMQ1pwbmZaVlgxeWIxYVI1ZC11bWJzNk5TMS0wZ25KVHBzMTBHUGdqZlhwcWJEUVE5T3NrSXY4MWtHUzJ0b3Nmd0xITk8yTFFCODNlOXpPMFlFM3pqVHpGY1RSckFYaXl6RG5Lb05fTlhxSnNlWFlDNmpyMFlldy1Gd3Y0?oc=5
+   • Light Readingの事業者アンケート連載記事。「AI for RAN」は運用面（最適化・自動化）で即効性のある価値を生むという調査結果を紹介
+   • 同連載（Omdia AI RAN Operator Survey、Red Hatスポンサー）の前回記事では、77%がAI RANとエンドユーザー向けAIサービスの共進化を予想、46%が「疎結合・共進化モデル」を最有力と回答
+   • ※本文は未取得のため、タイトルと同連載の文脈に基づく要約
 
 ## 🇯🇵 日本語メディア
 
@@ -23,16 +28,24 @@
 
 ## 📰 業界・一般メディア（英語）
 
-・ **Verizon's EIC Rollout: What the AI-Native rApp Platform Means for Open RAN Economics**
-   メディア名📰：Open RAN（open-ran.org）
-   Open RAN | https://open-ran.org/blog/verizons-eic-rollout-what-the-ai-native-rapp-platform-means-for-open-ran-economics
-   • VerizonがEricsson Intelligent Controller（EIC、non-RT RIC/rAppプラットフォーム）を全米4G/5G網へ展開。自社・サードパーティ製のAI-native rAppを載せる基盤とする
-   • 初期ユースケースはFWA端末のLTE→5G SAハンドオーバー自動化と異常検知rApp。約90億ドル規模の効率化施策と連動
-   • RIC層を既存RANベンダーが押さえつつある点を指摘し、事業者はrAppの可搬性・離脱条件を交渉すべきと論評
+・ **T-Mobile pushes ahead with AI-RAN toward 6G**
+   メディア名📰：Light Reading（Michelle Donegan）
+   Light Reading | https://www.lightreading.com/ai-machine-learning/t-mobile-pushes-ahead-with-ai-ran-toward-6g
+   • T-Mobile CNO Ankur Kapoorが、年内にRANへのGPU導入で「世界初」となる次のAI-RAN試験を公表すると予告（詳細は非公開）
+   • 拡大の条件は性能・効率・経済性の3点で、GPUの「経済性はこれから」と発言。約85,000局の全てにGPUを置くわけではないとの見方
+   • Ericssonのニューヨークでの AI beamforming 試験では DL user throughput +16%、spectral efficiency +12%、DLデータ量 +10%。約43局のAIスケジューラ試験でも spectral efficiency 最大+10%、DL throughput 最大+15%
+   • ISAC（Integrated Sensing and Communication）試験の詳細も近く公表予定
 
-・ **News in Brief: AI-RAN and AI service revenue progress, Musk ups D2D ante and AI's unclear impact on headcount**
-   メディア名📰：FutureNet World（Annie Turner）
-   FutureNet World | https://futurenetworld.net/news-in-brief-ai-ran-and-ai-service-revenue-progress-musk-ups-d2d-ante-and-ais-unclear-impact-on-headcount/2026/11/
-   • SoftBankとNokiaが2027年に商用トラフィック下でAI-RANフィールドトライアルを予定。AITRAS上でNokia anyRAN Cloud RANを動作させ、NVIDIA ARCを使用
-   • O2（VMO2）とNokiaがロンドン・パディントン駅で英国初のライブAI-RAN試験を実施し、5Gスペクトル効率20%向上と発表
-   • 同試験のLayer 1はNVIDIA GPUではなくMarvell製シリコンで動作していたとLight Readingが報道（GPU不要のAI-RANの例）
+・ **T-Mobile teases "world's first" AI-RAN test before year-end**
+   メディア名📰：RCR Wireless News（Christian de Looper）
+   RCR Wireless News | https://rcrwireless.com/20261125/ai/t-mobile-ai-ran-test-year-end
+   • Mobile World Liveのイベントでの発言を受け、T-Mobileの年内AI-RAN試験予告を報道。ベンダー・バンド・サイト・性能目標はいずれも未公表
+   • 10月のワシントン州Bellevueでの商用AI-RAN通話は、Nokia Massive MIMO + anyRANソフト + NVIDIA Aerial RAN Computer（ARC）構成で、Layer 1をセルサイトGPU上で処理
+   • ただしBellevue通話はスループットや消費電力の数値を開示しておらず、性能向上ではなく「互換性の実証」にとどまると指摘
+
+・ **T-Mobile tests AI-RAN deployment economics ahead of 6G**
+   メディア名📰：Telecoms Tech News（Muhammad Zulhusni）
+   Telecoms Tech News | https://www.telecomstechnews.com/news/t-mobile-ai-ran-deployment-economics-6g/
+   • T-MobileはNokia/NVIDIA（GPU型）とEricsson（既存RANハードウェア上のソフトウェア型）の2系統のAI-RANアーキテクチャを並行評価
+   • Deutsche Telekom/Nokia/NVIDIAのラボ試験では、GPU上のAIチャネル推定でUL throughputが通常10〜15%向上。EricssonのAI-in-RAN機能は2026年Q2に商用提供開始
+   • 公表済み試験にはハードウェアコスト・消費電力・TCOの数値がなく、GPU導入の経済性が今後の焦点。NVIDIA ARCはセルサイト/集約拠点/C-RANの各配置に対応
